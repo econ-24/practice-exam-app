@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title>EC24 Exam Review</title>
+  </head>
+  <body>
+   <div id="selection-view">
+        <div class="hero">
+             <h1>Practice Exam Generator</h1>
+             <p class="hero-sub">Pick the lectures you want to be tested on to build a practice exam. It will be a mix of True/False and Open Response questions, designed to take an hour.</p>
+  </div>
+
+  <div id="selection-summary" class="selection-summary">No lectures selected yet</div>
+
+  <div id="topics"></div>
+  <button id="generate-btn">Generate Exam</button>
+</div>
+
+<div id="exam-view" style="display:none;">
+  <button id="back-btn">← Back to lecture selection</button>
+   <h1 class="exam-title">Practice Exam</h1>
+
+ <div class="exam-content"></div>
+   <div id="timer" style="font-size: 1.5em; font-weight: bold; margin: 12px 0;"></div>
+  <div id="warning-banner" style="display:none; color: red; font-weight: bold;"></div>
+  <div id="exam-output"></div>
+</div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>

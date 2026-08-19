@@ -1,0 +1,278 @@
+.topic-card {
+  width: 100%;        /* fills its grid cell instead of a fixed 220px */
+  height: 140px;
+  margin: 0;           /* the grid's "gap" handles spacing now, not manual margins */
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.topic-card input[type="checkbox"] {
+  display: none;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d; /* lets front/back exist in 3D space, not flat */
+}
+
+.topic-card.flipped .card-inner {
+  transform: rotateY(180deg); /* the actual flip */
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* hides a face when it's turned away from you */
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 16px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+}
+
+.card-front {
+  background: white;
+}
+
+.card-back {
+  font-weight: bold;
+  transform: rotateY(180deg); /* pre-rotated so it's facing the right way once flipped */
+}
+.topic-card.pre-midterm .card-back {
+  background: #f3e8f7;
+  border-color: #8b3fa8;
+  color: #8b3fa8;
+}
+
+.topic-card.post-midterm .card-back {
+  background: #e8ecf7;
+  border-color: #3d4f8f;
+  color: #3d4f8f;
+}
+.topic-card input[type="checkbox"] {
+  display: none; /* hide the actual checkbox, card itself is now the click target */
+}
+
+.topic-card.selected {
+ border-color: #0f7a52;
+  background: #e9f5ef;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Lora', Georgia, serif;
+  background: #fdfcf9;
+  color: #22252b;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0 24px 60px;
+}
+
+#selection-view {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#exam-view {
+  width: 100%;
+  max-width: none; 
+  margin: 0;
+}
+
+.exam-content {
+  max-width: 1100px;  
+}
+
+#exam-output h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.5em;
+  margin-top: 44px;
+  margin-bottom: 4px;
+  padding-bottom: 8px;
+  display: inline-block;
+  border-bottom: 3px solid currentColor;
+}
+
+#exam-output h2:first-of-type { color: #3d4f8f; }   /* True/False header — blue */
+#exam-output h2:last-of-type  { color: #6b4a8f; }   /* Open Response header — purple */
+
+.question {
+  padding: 24px 0;
+  border-bottom: 1px solid #e6e1d6;
+}
+
+.question:last-child { border-bottom: none; }
+
+.question p {
+  margin: 0 0 10px;
+  font-size: 1.05em;
+}
+
+.answer-pills {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.answer-pill {
+  display: inline-block;
+  padding: 7px 22px;
+  border-radius: 999px;
+  border: 2px solid #3d4f8f;
+  color: #3d4f8f;
+  font-weight: 600;
+  font-size: 0.92em;
+  letter-spacing: 0.02em;
+}
+
+.answer-pill.false-pill {
+  border-color: #c04b74;
+  color: #c04b74;
+}
+#generate-btn {
+  display: block;
+  margin: 32px auto 0;
+  padding: 16px 48px;
+  font-size: 1.15em;
+  font-family: 'Lora', Georgia, serif;
+  font-weight: 600;
+  background: #c04b74;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: background 0.15s ease;
+}
+
+#generate-btn:hover {
+  background: #9c3a5d;
+}
+#back-btn {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.95em;
+  background: transparent;
+  color: #6b4a8f;
+  border: 1.5px solid #6b4a8f;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#back-btn:hover {
+  background: #f3e8f7;
+}
+.answer-pill {
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+
+.answer-pill.selected {
+ background: #3d4f8f;
+  color: white;
+  border-color: #3d4f8f;
+}
+
+.answer-pill.false-pill.selected {
+  background: #c04b74;
+  border-color: #c04b74;
+}
+.hero {
+  padding: 40px 0 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.4em;
+  margin: 0 0 10px;
+}
+
+.hero-sub {
+  font-size: 1.05em;
+  color: #55584f;
+  max-width: none;
+  line-height: 1.6;
+}
+
+.selection-summary {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fdfcf9;
+  border-bottom: 1px solid #e6e1d6;
+  padding: 12px 4px;
+  font-family: 'Lora', Georgia, serif;
+  font-weight: 600;
+  font-size: 1.05em;
+  color: #c04b74; 
+}
+
+.group-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.4em;
+  margin: 32px 0 16px;
+  color: #22252b;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.topic-card {
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  perspective: 1000px;
+  transition: transform 0.15s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Card top border — now split by group instead of one flat color */
+.card-face {
+  border-top: 4px solid #ccc; /* fallback, shouldn't normally show */
+}
+
+.topic-card.pre-midterm .card-face {
+  border-top-color:  #8b3fa8; /* purple */
+}
+
+.topic-card.post-midterm .card-face {
+  border-top-color: #3d4f8f; /* blue */
+}
+.card-title {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.card-badge {
+  font-size: 0.8em;
+  color: #7a7d73;
+}
+.card-lecture-num {
+  font-weight: 400;
+  color: #7a7d73;      /* slightly muted, since it's the less important part now */
+}
+.exam-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  text-align: center;
+  width: 100%;
+  font-size: 2.2em;
+  margin: 0 0 24px;
+  color: #22252b;
+}

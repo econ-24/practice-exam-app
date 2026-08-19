@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Question Bank Converter</title>
+<style>
+  :root {
+    --ink: #1f2320;
+    --paper: #faf9f6;
+    --rule: #d8d5cc;
+    --accent: #2b5d4f;
+    --accent-light: #e7f0ec;
+    --mono: "SF Mono", "Menlo", "Consolas", monospace;
+    --serif: "Georgia", "Iowan Old Style", serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    padding: 40px 24px 80px;
+  }
+
+  .wrap {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+  }
+
+  .sub {
+    color: #5b5f5a;
+    margin: 0 0 32px;
+    font-size: 0.98rem;
+    line-height: 1.5;
+  }
+
+  .card {
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 22px;
+  }
+
+  .card h2 {
+    font-size: 1.05rem;
+    margin: 0 0 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-family: var(--mono);
+    font-weight: 600;
+  }
+
+  .row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .field { flex: 1; min-width: 160px; }
+
+  label {
+    display: block;
+    font-size: 0.82rem;
+    color: #55584f;
+    margin-bottom: 6px;
+    font-family: var(--mono);
+  }
+
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: var(--serif);
+    background: #fffefc;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 220px;
+    padding: 14px;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    font-family: var(--mono);
+    font-size: 0.88rem;
+    line-height: 1.55;
+    resize: vertical;
+    background: #fffefc;
+  }
+
+  .format-note {
+    background: var(--accent-light);
+    border-left: 3px solid var(--accent);
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.86rem;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    font-family: var(--mono);
+    color: #2a3d35;
+  }
+
+  .format-note code {
+    background: rgba(43,93,79,0.1);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+
+  button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 0.95rem;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: var(--serif);
+    font-weight: 600;
+  }
+
+  button:hover { background: #234c41; }
+
+  button.ghost {
+    background: transparent;
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+  }
+
+  button.ghost:hover { background: var(--accent-light); }
+
+  #output {
+    background: #1e2420;
+    color: #d9e5df;
+    font-family: var(--mono);
+    font-size: 0.84rem;
+    line-height: 1.6;
+    padding: 18px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    min-height: 100px;
+    max-height: 420px;
+    overflow-y: auto;
+  }
+
+  .output-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  #status {
+    font-size: 0.85rem;
+    color: #5b5f5a;
+    margin-top: 10px;
+    font-family: var(--mono);
+    min-height: 18px;
+  }
+
+  #status.err { color: #a3402f; }
+  #status.ok { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Question Bank Converter</h1>
+  <p class="sub">Paste your questions in plain text below, fill in the lecture info, and get back a ready-to-paste block for <code>questions.js</code>.</p>
+
+  <div class="card">
+    <h2>Lecture info</h2>
+    <div class="row">
+      <div class="field">
+        <label for="lectureNum">Lecture number</label>
+        <input type="text" id="lectureNum" placeholder="e.g. 3">
+      </div>
+      <div class="field" style="flex: 2;">
+        <label for="lectureTitle">Lecture title</label>
+        <input type="text" id="lectureTitle" placeholder="e.g. Migration and remittances">
+      </div>
+    </div>
+    <div class="row">
+      <div class="field">
+        <label for="tfMinutes">Minutes per True/False</label>
+        <input type="number" id="tfMinutes" value="1.5" step="0.5">
+      </div>
+      <div class="field">
+        <label for="orMinutes">Minutes per Open Response</label>
+        <input type="number" id="orMinutes" value="10.5" step="0.5">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Paste your questions</h2>
+    <div class="format-note">
+      One question per block.<br>
+      True/false: <code>TF: your question text</code><br>
+      Open response: <code>OR: your question text</code><br>
+      Long questions can wrap across multiple lines — just don't leave a blank line in the middle of one. Use a blank line to separate one question from the next.<br>
+      Want a real line break inside a question (e.g. before each lettered part)? Type <code>/b</code> right where you want the break. Want an indent, like <code>&amp;emsp;</code> before "(a)"? Type <code>/tab</code> — stack it for a deeper indent, e.g. <code>/tab/tab</code> for two levels. So a lettered part usually looks like <code>/b/tab(a) ...</code>.<br><br>
+      <strong>Picking the question number:</strong> since you're maintaining one big bank, put the number right after TF/OR, e.g. <code>TF12: your question text</code> or <code>OR7: your question text</code>. That becomes the id (<code>lc3-tf-12</code>), so you can insert or delete questions anywhere without renumbering everything else. Leave the number off (just <code>TF:</code> / <code>OR:</code>) and it'll auto-number starting at 1 for whatever's left unnumbered in this batch.
+    </div>
+    <textarea id="input" placeholder="OR7: In 2024 the OECD Pillar 2 agreement entered into force... /b/tab(a) Analyze who in Mauritius bears the burden of Pillar 2. /b/tab(b) Pillar 2 has been described as 'lifting the floor of a race to the bottom.' Evaluate this characterization."></textarea>
+  </div>
+
+  <button id="convertBtn">Generate code</button>
+
+  <div class="card" style="margin-top: 22px;">
+    <div class="output-header">
+      <h2 style="margin:0;">Output</h2>
+      <button class="ghost" id="copyBtn">Copy to clipboard</button>
+    </div>
+    <div id="output">// Your generated code will appear here.</div>
+    <div id="status"></div>
+  </div>
+
+</div>
+
+<script>
+function escapeForJs(str) {
+  // Escape backslashes and double quotes, then turn any real line breaks
+  // into a JS newline escape (\n) so intentional breaks survive into the code,
+  // instead of collapsing them into a single space.
+  return str
+    .replace(/\\/g, '\\\\')
+    .replace(/"/g, '\\"')
+    .replace(/\r\n|\r|\n/g, '\\n')
+    .trim();
+}
+
+function applyFormatMarkers(str) {
+  // Turns "/b" and "/tab" markers the user typed themselves into a real line
+  // break and an indent (&emsp;) respectively. Collapses any surrounding spaces
+  // around each marker so you don't get double-spacing around it. Stack /tab
+  // multiple times (e.g. "/tab/tab") for a deeper indent.
+  return str.replace(/\s*\/(b|tab)\s*/gi, (match, tag) =>
+    tag.toLowerCase() === 'b' ? '\n' : '&emsp;'
+  );
+}
+
+function convert() {
+  const statusEl = document.getElementById('status');
+  const outputEl = document.getElementById('output');
+  statusEl.className = '';
+  statusEl.textContent = '';
+
+  const lectureNumRaw = document.getElementById('lectureNum').value.trim();
+  const lectureTitle = document.getElementById('lectureTitle').value.trim();
+  const tfMinutes = parseFloat(document.getElementById('tfMinutes').value);
+  const orMinutes = parseFloat(document.getElementById('orMinutes').value);
+  const rawInput = document.getElementById('input').value;
+
+  if (!lectureNumRaw || !lectureTitle) {
+    statusEl.textContent = 'Please fill in both the lecture number and title.';
+    statusEl.className = 'err';
+    return;
+  }
+
+  const topic = `Lecture ${lectureNumRaw} - ${lectureTitle}`;
+  const idPrefix = `lc${lectureNumRaw}`;
+
+  // A block starts at a line matching TF:/OR: (optionally followed by a number,
+  // e.g. TF12:), and any following lines (until the next TF:/OR: or a blank line)
+  // are treated as a continuation of that same question and joined together.
+  const startsBlock = /^(TF|OR)\d*:/i;
+
+  const rawLines = rawInput.split('\n').map(l => l.trim());
+  const blocks = [];
+  let current = null;
+
+  rawLines.forEach(line => {
+    if (line === '') {
+      if (current) { blocks.push(current); current = null; }
+      return;
+    }
+    if (startsBlock.test(line)) {
+      if (current) blocks.push(current);
+      current = line;
+    } else if (current) {
+      current += ' ' + line; // continuation of a wrapped question
+    }
+    // a line with no current block and no TF:/OR: prefix is handled as a problem below
+  });
+  if (current) blocks.push(current);
+
+  if (blocks.length === 0) {
+    statusEl.textContent = 'Paste at least one question first.';
+    statusEl.className = 'err';
+    return;
+  }
+
+  const entries = [];
+  const problems = [];
+  let tfAutoCount = 0;
+  let orAutoCount = 0;
+  let tfTotal = 0;
+  let orTotal = 0;
+
+  blocks.forEach((line, i) => {
+    const lineNum = i + 1;
+    const tfMatch = line.match(/^TF(\d+)?:/i);
+    const orMatch = line.match(/^OR(\d+)?:/i);
+
+    if (tfMatch) {
+      const promptText = applyFormatMarkers(line.slice(tfMatch[0].length).trim());
+
+      if (!promptText) {
+        problems.push(`Question ${lineNum}: true/false question has no question text.`);
+        return;
+      }
+
+      let numStr;
+      if (tfMatch[1]) {
+        numStr = tfMatch[1].padStart(2, '0');
+      } else {
+        tfAutoCount++;
+        numStr = String(tfAutoCount).padStart(2, '0');
+      }
+      tfTotal++;
+      const id = `${idPrefix}-tf-${numStr}`;
+
+      entries.push(
+`  {
+    id: "${id}",
+    topic: "${escapeForJs(topic)}",
+    type: "true_false",
+    prompt: "${escapeForJs(promptText)}",
+    minutes: ${tfMinutes}
+  }`);
+
+    } else if (orMatch) {
+      const promptText = applyFormatMarkers(line.slice(orMatch[0].length).trim());
+
+      if (!promptText) {
+        problems.push(`Question ${lineNum}: open response question has no question text.`);
+        return;
+      }
+
+      let numStr;
+      if (orMatch[1]) {
+        numStr = orMatch[1].padStart(2, '0');
+      } else {
+        orAutoCount++;
+        numStr = String(orAutoCount).padStart(2, '0');
+      }
+      orTotal++;
+      const id = `${idPrefix}-or-${numStr}`;
+
+      entries.push(
+`  {
+    id: "${id}",
+    topic: "${escapeForJs(topic)}",
+    type: "open_response",
+    prompt: "${escapeForJs(promptText)}",
+    minutes: ${orMinutes}
+  }`);
+
+    } else {
+      problems.push(`Question ${lineNum}: doesn't start with "TF:" or "OR:" — skipped: "${line.slice(0, 50)}${line.length > 50 ? '...' : ''}"`);
+    }
+  });
+
+  if (entries.length === 0) {
+    statusEl.textContent = 'No valid questions found. Check the format notes above.';
+    statusEl.className = 'err';
+    outputEl.textContent = '// Nothing generated — fix the issues below and try again.';
+    return;
+  }
+
+  const header = `  // ============================================\n  // LECTURE ${lectureNumRaw} — ${lectureTitle}\n  // ============================================\n`;
+
+  const codeBlock = header + '\n' + entries.join(',\n\n') + ',';
+
+  outputEl.textContent = codeBlock;
+
+  let statusMsg = `Generated ${tfTotal} true/false and ${orTotal} open response question(s).`;
+  if (problems.length > 0) {
+    statusMsg += ` ${problems.length} line(s) skipped:\n` + problems.join('\n');
+    statusEl.className = 'err';
+  } else {
+    statusEl.className = 'ok';
+  }
+  statusEl.textContent = statusMsg;
+}
+
+document.getElementById('convertBtn').addEventListener('click', convert);
+
+document.getElementById('copyBtn').addEventListener('click', () => {
+  const text = document.getElementById('output').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const statusEl = document.getElementById('status');
+    const original = statusEl.textContent;
+    statusEl.textContent = 'Copied to clipboard!';
+    statusEl.className = 'ok';
+    setTimeout(() => { statusEl.textContent = original; }, 1800);
+  });
+});
+</script>
+</body>
+</html>
