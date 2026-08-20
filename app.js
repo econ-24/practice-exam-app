@@ -27,13 +27,25 @@ function renderTopicCheckboxes(topics) {
   function renderGroup(title, topicGroup, groupClass) {
     if (topicGroup.length === 0) return;
 
+    const headingRow = document.createElement('div');
+    headingRow.className = 'group-heading-row';
+
     const heading = document.createElement('h2');
     heading.className = 'group-heading';
     heading.textContent = title;
-    container.appendChild(heading);
+
+    const selectAllBtn = document.createElement('button');
+    selectAllBtn.className = 'select-all-btn';
+    selectAllBtn.textContent = 'Select all';
+    selectAllBtn.type = 'button'; // stops it from accidentally submitting/triggering other things
+
+    headingRow.appendChild(heading);
+    headingRow.appendChild(selectAllBtn);
+    container.appendChild(headingRow);
 
     const grid = document.createElement('div');
     grid.className = 'topic-grid';
+    grid.dataset.group = groupClass; // lets the button find only its own section's checkboxes
 
     topicGroup.forEach(topic => {
       const wrapper = document.createElement('label');
@@ -75,6 +87,15 @@ function renderTopicCheckboxes(topics) {
     });
 
     container.appendChild(grid);
+
+     // Wire up the button now that the grid actually exists in the page
+    selectAllBtn.addEventListener('click', () => {
+      const checkboxesInThisGroup = grid.querySelectorAll('.topic-checkbox');
+      checkboxesInThisGroup.forEach(checkbox => {
+        checkbox.checked = true;
+        checkbox.dispatchEvent(new Event('change')); // triggers the flip + summary update, same as a real click would
+      });
+    });
   }
 
   renderGroup('Pre-Midterm', preMidterm, 'pre-midterm');

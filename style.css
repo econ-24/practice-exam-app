@@ -271,3 +271,28 @@ body {
   margin: 0 0 24px;
   color: #22252b;
 }
+.group-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0 16px;
+}
+
+.group-heading-row .group-heading {
+  margin: 0; /* the row now handles spacing, not the heading itself */
+}
+
+.select-all-btn {
+  padding: 6px 16px;
+  font-size: 0.85em;
+  font-family: 'Lora', Georgia, serif;
+  background: transparent;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--text-secondary, #666);
+}
+
+.select-all-btn:hover {
+  background: var(--surface-1, #f5f5f0);
+}
