@@ -36,13 +36,6 @@ const questions = [
   "minutes": 1.5
 },
 {
-  "id": "lc1-tf-05",
-  "topic": "Lecture 1 - Why poverty persists",
-  "type": "true_false",
-  "prompt": "Test!",
-  "minutes": 1.5
-},
-{
   "id": "lc1-or-01",
   "topic": "Lecture 1 - Why poverty persists",
   "type": "open_response",
