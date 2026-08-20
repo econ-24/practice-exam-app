@@ -256,8 +256,8 @@ function renderExam(result) {
     const formattedPrompt = q.prompt.replace(/\n/g, '<br><br>');
     qDiv.innerHTML = `<p><strong>${number}.</strong> ${formattedPrompt}</p>
       <div class="answer-pills">
-        <span class="answer-pill">True ✓</span>
-        <span class="answer-pill false-pill">False ✗</span>
+         <span class="answer-pill">True</span>
+        <span class="answer-pill false-pill">False</span>
       </div>`;
     outputDiv.appendChild(qDiv);
   });
