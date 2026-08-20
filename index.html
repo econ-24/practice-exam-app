@@ -30,8 +30,22 @@
   <div id="exam-output"></div>
 </div>
 
-    <script src="questions.js"></script>
-    <script src="app.js"></script>
+    <script>
+  // Always load questions.js fresh — a new timestamp every page load means
+  // the browser can never serve a cached (stale) version.
+  const questionsScript = document.createElement('script');
+  questionsScript.src = 'questions.js?t=' + Date.now();
+
+  // app.js depends on "questions" already existing, so it only loads
+  // once questions.js has actually finished loading — same order as before.
+  questionsScript.onload = () => {
+    const appScript = document.createElement('script');
+    appScript.src = 'app.js';
+    document.body.appendChild(appScript);
+  };
+
+  document.body.appendChild(questionsScript);
+</script>
 
   </body>
 </html>
