@@ -92,11 +92,12 @@ function updateSelectionSummary() {
     return;
   }
 
-  const pool = questions.filter(q => selectedTopics.includes(q.topic));
-  const totalMinutes = pool.reduce((sum, q) => sum + q.minutes, 0);
+  // Reuse the real exam-building function so this preview respects
+  // the same open-response cap the actual generated exam does.
+  const result = generateExam(selectedTopics, questions);
   const count = selectedTopics.length;
 
-  summaryBar.textContent = `${count} lecture${count > 1 ? 's' : ''} selected · ~${Math.round(totalMinutes)} of 60 min available`;
+  summaryBar.textContent = `${count} lecture${count > 1 ? 's' : ''} selected · ~${Math.round(result.totalMinutes)} of 60 min available`;
 }
 
 
