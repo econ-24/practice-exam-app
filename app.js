@@ -59,7 +59,7 @@ function renderTopicCheckboxes(topics) {
 
       const back = document.createElement('div');
       back.className = 'card-face card-back';
-      back.textContent = `${topic} — selected!`;
+      back.textContent = `${topic} — selected`;
 
       inner.appendChild(front);
       inner.appendChild(back);
