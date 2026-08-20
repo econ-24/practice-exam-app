@@ -79,6 +79,10 @@ function renderTopicCheckboxes(topics) {
       checkbox.addEventListener('change', () => {
         wrapper.classList.toggle('flipped', checkbox.checked);
         updateSelectionSummary(); // <-- new: live-updates the sticky bar
+
+         // Keep this section's button label accurate even when checkboxes change one at a time
+          const allChecked = Array.from(grid.querySelectorAll('.topic-checkbox')).every(cb => cb.checked);
+          selectAllBtn.textContent = allChecked ? 'Deselect all' : 'Select all';
       });
 
       wrapper.appendChild(checkbox);
@@ -91,10 +95,13 @@ function renderTopicCheckboxes(topics) {
      // Wire up the button now that the grid actually exists in the page
     selectAllBtn.addEventListener('click', () => {
       const checkboxesInThisGroup = grid.querySelectorAll('.topic-checkbox');
+      const allCurrentlyChecked = Array.from(checkboxesInThisGroup).every(cb => cb.checked);
+      
       checkboxesInThisGroup.forEach(checkbox => {
-        checkbox.checked = true;
-        checkbox.dispatchEvent(new Event('change')); // triggers the flip + summary update, same as a real click would
+        checkbox.checked = !allCurrentlyChecked; // if all were checked, uncheck everything; otherwise check everything
+        checkbox.dispatchEvent(new Event('change'));
       });
+       selectAllBtn.textContent = allCurrentlyChecked ? 'Select all' : 'Deselect all';
     });
   }
 
