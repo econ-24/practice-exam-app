@@ -31,7 +31,7 @@
   <button id="back-btn">← Back to lecture selection</button>
    <h1 class="exam-title">Practice Exam</h1>
 
- <div class="exam-content"></div>
+ <div class="exam-content">
    <div id="timer" style="font-size: 1.5em; font-weight: bold; margin: 12px 0;"></div>
   <div id="warning-banner" style="display:none; color: red; font-weight: bold;"></div>
   <div id="exam-output"></div>
@@ -47,9 +47,9 @@
   // once questions.js has actually finished loading — same order as before.
   questionsScript.onload = () => {
     const appScript = document.createElement('script');
-    appScript.src = 'app.js';
     appScript.src = 'app.js?t=' + Date.now();
-  };
+    document.body.appendChild(appScript);
+};
 
   document.body.appendChild(questionsScript);
 </script>
