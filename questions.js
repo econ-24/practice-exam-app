@@ -113,7 +113,7 @@ const questions = [
   "id": "lc2-tf-06",
   "topic": "Lecture 2 - Poverty traps",
   "type": "true_false",
-  "prompt": "You should eat more potatoes.",
+  "prompt": " For poor households, roughly 70% of each additional dollar of income is spent on food.",
   "minutes": 1.5
 },
 
