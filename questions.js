@@ -35,6 +35,46 @@ const questions = [
   "prompt": "Private flows from high income countries to low income countries exceed public (government) flows.",
   "minutes": 1.5
 },
+
+{
+  "id": "lc1-tf-05",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "A 'reversal of fortune' refers to the empirical pattern in which regions that were relatively richer (e.g., more urbanized) in 1500 tend to be relatively poorer today, which poses a challenge for theories that attribute persistent poverty purely to fixed geographic endowments.",
+  "minutes": 1.5
+},
+
+{
+  "id": "lc1-tf-06",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "Purchasing Power Parity (PPP) adjustments are used because a dollar of income converted at market exchange rates typically buys more in a low-income country than in a high-income country, so using market exchange rates alone would understate real living standards in poor countries.",
+  "minutes": 1.5
+},
+
+{
+  "id": "lc1-tf-07",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "Bilateral Official Development Assistance (ODA), which flows directly from one donor government to a recipient country, is substantially larger in total dollar terms than multilateral ODA channeled through institutions like the UN system or World Bank.",
+  "minutes": 1.5
+},
+
+{
+  "id": "lc1-tf-08",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "In recent years, Foreign Direct Investment (FDI) flows to developing countries have generally exceeded Official Development Assistance (ODA) flows in dollar terms.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-09",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "Nongovernmental organizations (NGOs) / civil society organizations (CSOs) only receive ODA passively; they do not themselves act as channels through which donor-country ODA is disbursed to developing-country recipients.",
+  "minutes": 1.5
+},
+
 {
   "id": "lc1-or-01",
   "topic": "Lecture 1 - Why poverty persists",
@@ -64,6 +104,46 @@ const questions = [
   "topic": "Lecture 1 - Why poverty persists",
   "type": "open_response",
   "prompt": "Show that a government can decrease the poverty head count by distributing resources from the most poor to the barely poor.",
+  "minutes": 10.5
+},
+
+{
+  "id": "lc1-or-05",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "open_response",
+  "prompt": "Using the urbanization-in-1500-vs-GDP-per-capita-in-1995 relationship and the North/South Korea example, explain what a 'reversal of fortune' is and why it is a problem for theories that explain persistent poverty solely through fixed geographic endowments (e.g., climate, disease environment, natural resources).",
+  "minutes": 10.5
+},
+
+{
+  "id": "lc1-or-06",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "open_response",
+  "prompt": "Explain why economists compare living standards across countries using PPP-adjusted measures rather than converting local currency income into dollars at market exchange rates. Illustrate with a numerical example why using market exchange rates instead of PPP could distort a poverty headcount comparison between a rich and a poor country.",
+  "minutes": 10.5
+},
+
+{
+  "id": "lc1-or-07",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "open_response",
+  "prompt": "Distinguish bilateral from multilateral ODA and discuss at least two reasons donor countries might prefer giving aid bilaterally rather than channeling it through multilateral institutions such as the UN system or World Bank.",
+  "minutes": 10.5
+},
+
+{
+  "id": "lc1-or-08",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "open_response",
+  "prompt": "Using the convergence framework (Pf'(k)=(1+r)), explain why standard growth theory predicts that Foreign Direct Investment should flow from capital-rich to capital-poor countries, and describe the empirical anomalies (within-country variance in returns, coexistence of modern/traditional technologies) that complicate this prediction.",
+  "minutes": 10.5
+},
+
+{
+  "id": "lc1-or-09",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "open_response",
+  "prompt": "Discuss the growing role of NGOs/civil society organizations as both recipients and disbursing channels of ODA. Why might donor governments prefer to route aid through NGOs rather than directly to recipient-country governments, and what are the potential trade-offs of doing so?",
   "minutes": 10.5
 },
  // ============================================
@@ -113,7 +193,23 @@ const questions = [
   "id": "lc2-tf-06",
   "topic": "Lecture 2 - Poverty traps",
   "type": "true_false",
-  "prompt": " For poor households, roughly 70% of each additional dollar of income is spent on food.",
+  "prompt": "For poor households, roughly 70% of each additional dollar of income is spent on food.",
+  "minutes": 1.5
+},
+
+{
+  "id": "lc2-tf-07",
+  "topic": "Lecture 2 - Poverty traps",
+  "type": "true_false",
+  "prompt": "Wasting is best understood as a measure of the prevalence of chronic malnutrition in a population, since it reflects the cumulative effect of poor nutrition and repeated illness over a child's life rather than a single recent shock. ",
+  "minutes": 1.5
+},
+
+{
+  "id": "lc2-tf-08",
+  "topic": "Lecture 2 - Poverty traps",
+  "type": "true_false",
+  "prompt": "If a 5 percent increase in food prices raises the risk of wasting, as shown in the slide on food price shocks, this tells us that stunting prevalence — not just wasting — should rise sharply within the same year, since both measures capture a child's current nutritional status.",
   "minutes": 1.5
 },
 
