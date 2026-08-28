@@ -252,6 +252,22 @@ const questions = [
   "prompt": "Consider the introduction of cheap, high calorie foods that can be quickly and easily converted into energy and therefore work capacity.  Under what conditions would this decrease wages, have no effect on wages, and increase wages?",
   "minutes": 10.5
 },
+
+{
+  "id": "lc2-or-05",
+  "topic": "Lecture 2 - Poverty traps",
+  "type": "open_response",
+  "prompt": "In 2025, the US imposed a 35–37% tariff on Bangladeshi garment exports (versus 20% on Vietnam's), and buyers responded by cancelling orders and shifting sourcing elsewhere. Bangladesh's garment sector is overwhelmingly export-oriented. Using the nutrition-based poverty trap model, show how this tariff shock can push wage-takers below the critical nutrition threshold c* — and create involuntary unemployment — even though none of them individually experienced any change in their own work capacity.",
+  "minutes": 10.5
+},
+
+{
+  "id": "lc2-or-06",
+  "topic": "Lecture 2 - Poverty traps",
+  "type": "open_response",
+  "prompt": "Food prices have trended upward since 2000, with sharp spikes during the 2007–08, 2010–11, and 2021–22 crises. Show that a sustained rise in food prices can push wage-takers below the critical nutrition threshold c* — even though nothing about their bodies has changed.",
+  "minutes": 10.5
+},
   // ============================================
   // LECTURE 3 — Malnutrition
   // ============================================
