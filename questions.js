@@ -76,6 +76,14 @@ const questions = [
 },
 
 {
+  "id": "lc1-tf-1",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "An NGO (non-governmental organization) is a private, non-profit organization that operates independently of government and is typically involved in development, humanitarian, or advocacy work.",
+  "minutes": 1.5
+},
+
+{
   "id": "lc1-or-01",
   "topic": "Lecture 1 - Why poverty persists",
   "type": "open_response",
