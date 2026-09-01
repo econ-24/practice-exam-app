@@ -255,7 +255,7 @@ const questions = [
 
   {
     id: "lc2-or-05",
-    topic: "Lecture 2 - Poverty Traps",
+    topic: "Lecture 2 - Poverty traps",
     type: "open_response",
     prompt: "In 2025, the US imposed a 35–37% tariff on Bangladeshi garment exports (versus 20% on Vietnam's), and buyers responded by cancelling orders and shifting sourcing elsewhere. Bangladesh's garment sector is overwhelmingly export-oriented. Show how this tariff shock can create involuntary unemployment among garment workers, even though none of them individually experienced any change in their own work capacity.",
     minutes: 10.5
@@ -263,7 +263,7 @@ const questions = [
 
   {
     id: "lc2-or-06",
-    topic: "Lecture 2 - Poverty Traps",
+    topic: "Lecture 2 - Poverty traps",
     type: "open_response",
     prompt: "A country's currency appreciates sharply against the dollar, making its toy exports comparatively more expensive on world markets. Buyers respond by shifting their contracts to cheaper producers elsewhere — even though the factories haven't changed how they operate. Show how this exchange-rate shock, acting purely through the price foreign buyers pay, can create involuntary unemployment among the workers who make the toys.",
     minutes: 10.5
@@ -271,7 +271,7 @@ const questions = [
 
   {
     id: "lc2-or-07",
-    topic: "Lecture 2 - Poverty Traps",
+    topic: "Lecture 2 - Poverty traps",
     type: "open_response",
     prompt: "Food prices have trended upward since 2000, with sharp spikes during the 2007–08, 2010–11, and 2021–22 crises. Show that a sustained rise in food prices can push wage-takers below the critical nutrition threshold — even though nothing about their bodies has changed.",
     minutes: 10.5
@@ -279,7 +279,7 @@ const questions = [
 
   {
     id: "lc2-or-08",
-    topic: "Lecture 2 - Poverty Traps",
+    topic: "Lecture 2 - Poverty traps",
     type: "open_response",
     prompt: "Disrupted shipping through the Strait of Hormuz pushed oil past $100\narrel. Isolate just the energy-price channel: show how a pure rise in oil and shipping costs — with nothing biological changing for wage-takers — can still push them below the critical nutrition threshold, by tracing its effect through food prices to the nutrition a given wage can buy.",
     minutes: 10.5
@@ -287,7 +287,7 @@ const questions = [
 
   {
     id: "lc2-or-09",
-    topic: "Lecture 2 - Poverty Traps",
+    topic: "Lecture 2 - Poverty traps",
     type: "open_response",
     prompt: "Suppose a sudden currency devaluation doubles the domestic price of imported staple grains, even though nothing changes about local agriculture, wages, or workers' health. Show algebraically that this pure rise in the cost of food can push wage-takers below the critical nutrition threshold.",
     minutes: 10.5
@@ -295,7 +295,7 @@ const questions = [
 
   {
     id: "lc2-or-10",
-    topic: "Lecture 2 - Poverty Traps",
+    topic: "Lecture 2 - Poverty traps",
     type: "open_response",
     prompt: "The 2026 Strait of Hormuz energy shock also spiked nitrogen-fertilizer prices, since fertilizer production is natural-gas intensive — hitting Sudan, Somalia, Tanzania, and Mozambique hardest. If farmers respond by using less fertilizer, show how this affects the marginal product of farm labor — and therefore labor demand — when fertilizer and labor are complements in production. How does your answer change if they're substitutes instead?",
     minutes: 10.5
@@ -303,7 +303,7 @@ const questions = [
 
   {
     id: "lc2-or-11",
-    topic: "Lecture 2 - Poverty Traps",
+    topic: "Lecture 2 - Poverty traps",
     type: "open_response",
     prompt: "Suppose a new regulation raises the minimum wage for farm workers. Show how this change in the cost of labor affects farms' demand for machinery and fertilizer — and therefore how much of each they buy — when labor and those inputs are complements in production. How does your answer change if they're substitutes instead?",
     minutes: 10.5
