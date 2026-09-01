@@ -369,6 +369,14 @@ const questions = [
   },
 
   {
+    id: "lc3-tf-08",
+    topic: "Lecture 3 - Malnutrition",
+    type: "true_false",
+    prompt: "Relative deprivation theory holds that an individual's well-being is affected by comparisons to others generally, regardless of whether those others are better or worse off.",
+    minutes: 1.5
+  },
+
+  {
     id: "lc3-or-01",
     topic: "Lecture 3 - Malnutrition",
     type: "open_response",
