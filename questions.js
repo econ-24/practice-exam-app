@@ -408,6 +408,14 @@ const questions = [
     minutes: 10.5
   },
 
+   {
+    id: "lc3-or-05",
+    topic: "Lecture 3 - Malnutrition",
+    type: "open_response",
+    prompt: "In July 2023, India — which supplies roughly 40% of the world's rice exports — banned exports of non-basmati white rice, citing domestic food security concerns. Because the previously-exported surplus could no longer leave the country, it was redirected onto the domestic market, and the domestic price of rice fell. What do we expect the impact of this fall in the domestic price to have on household caloric consumption? \nTip - in answering this question, you will want to consider whether rice is a Giffen good and you may want to consider net buyers and net sellers of rice separately.  A full credit answer would consider all these different issues.",
+    minutes: 10.5
+  },
+
     // ============================================
   // LECTURE 4 — Policy Brief 1: Self-perpetuating poverty
   // ============================================
