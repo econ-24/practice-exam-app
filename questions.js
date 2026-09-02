@@ -628,7 +628,13 @@ const questions = [
     prompt: "Two mothers are identical in age, education, household income, and distance to a free clinic — except Mother A has one child under five and Mother B has two.  Explain why mother A’s child might be more likely to be vaccinated (compared to B).  Explain why a child in mother B’s household might be more likely to be vaccinated (compared to mother A).",
     minutes: 10.5
   },
-
+   {
+    id: "lc5-or-07",
+    topic: "Lecture 5 - Health",
+    type: "open_response",
+    prompt: "In low income countries, we generally observe that later born children are less likely to be born in a hospital and less likely to receive prenatal care.  One explanation for this is learning:  mothers learn (potentially wrongly) from earlier births that those things aren’t valuable. Another explanation is poverty: later born are born into poorer households (in per capita terms).  Provide an additional explanation that draws on the mother’s value of time.",
+    minutes: 10.5
+  },
     // ============================================
   // LECTURE 6 — Unhealthy behaviors
   // ============================================
