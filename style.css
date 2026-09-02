@@ -269,8 +269,14 @@ body {
   margin: 0;
 }
 .card-lecture-num {
-  font-weight: 400;
-  color: #7a7d73;      /* slightly muted, since it's the less important part now */
+  font-weight: 400;   
+}
+.topic-card.pre-midterm .card-lecture-num {
+  color: #c7a3db;
+}
+
+.topic-card.post-midterm .card-lecture-num {
+  color: #a8b5dd;
 }
 .exam-title {
   font-family: 'Playfair Display', Georgia, serif;
