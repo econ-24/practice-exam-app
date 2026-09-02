@@ -251,13 +251,6 @@ body {
 .topic-card.post-midterm .card-face {
   border-top-color: #3d4f8f; /* blue */
 }
-.topic-card.pre-midterm .card-badge {
-  color: #a06bc2; /* lighter tint of your purple, for the T/F · OR count */
-}
-
-.topic-card.post-midterm .card-badge {
-  color: #6d84c7; /* lighter tint of your blue */
-}
 .card-title {
   font-weight: 400;
   margin-bottom: 8px;
@@ -270,14 +263,9 @@ body {
 }
 .card-lecture-num {
   font-weight: 400;   
-}
-.topic-card.pre-midterm .card-lecture-num {
-  color: #c7a3db;
+  color: var(--text-primary, #22252b);
 }
 
-.topic-card.post-midterm .card-lecture-num {
-  color: #a8b5dd;
-}
 .exam-title {
   font-family: 'Playfair Display', Georgia, serif;
   text-align: center;

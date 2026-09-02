@@ -618,14 +618,14 @@ const questions = [
     id: "lc5-or-05",
     topic: "Lecture 5 - Health",
     type: "open_response",
-    prompt: "A rural clinic offers free prenatal checkups. A pregnant woman's most time-intensive daily task is fetching water for the household — an activity with no market wage. The well she uses runs dry, so fetching water from the next-nearest source now takes twice as long. Using the time-cost model of preventive care demand, show that her prenatal visits can fall even though neither the price of care nor her market wage has changed. What does this imply about using the market wage as a stand-in for 'the price of time' when evaluating preventive care policy?" ,
+    prompt: "A rural clinic offers free prenatal checkups. A pregnant woman's most time-intensive daily task is fetching water for the household — an activity with no market wage. The well she uses runs dry, so fetching water from the next-nearest source now takes twice as long. What do we expect the implications of this change in water access to be for her use of prenatal care?" ,
     minutes: 10.5
   },
    {
     id: "lc5-or-06",
     topic: "Lecture 5 - Health",
     type: "open_response",
-    prompt: "Two mothers are identical in age, education, household income, and distance to a free clinic — except Mother A has one child under five and Mother B has four. \n&emsp;&emsp;(a) Using the time-cost model, explain why Mother B may bring any given child in for a preventive visit (e.g., a vaccination) less often than Mother A, even though the price is zero for both. \n&emsp;&emsp;(b) Does an additional dependent unambiguously raise or lower the household's total demand for preventive visits, summed across all children? \n&emsp;&emsp;(c) An NGO wants to raise immunization coverage in a high-fertility region: between (i) a cash transfer conditional on vaccination and (ii) a mobile clinic that comes to the household, which is more likely to help larger families specifically, and why?",
+    prompt: "Two mothers are identical in age, education, household income, and distance to a free clinic — except Mother A has one child under five and Mother B has two.  Explain why mother A’s child might be more likely to be vaccinated (compared to B).  Explain why a child in mother B’s household might be more likely to be vaccinated (compared to mother A).",
     minutes: 10.5
   },
 
