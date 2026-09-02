@@ -607,6 +607,13 @@ const questions = [
     prompt: "Ethiopia is the largest coffee producer in Africa, with over 15 million people (roughly 15% of the population) employed in coffee cultivation and processing. In 2021-2022, global coffee prices surged to their highest levels in decades following supply disruptions in Brazil. At the same time, a local NGO planned to expand childhood vaccination coverage in rural coffee-growing regions, establishing local, free immunization camps to reduce travel time to vaccination sites. Vaccination rates in these regions have been historically low. \nWhat information do you need to evaluate the net effect of the coffee price surge and immunization camp on childhood vaccination rates? Under what conditions can the immunization camps be sufficient to offset the effect of the price surge on vaccination rates?",
     minutes: 10.5
   },
+   {
+    id: "lc5-or-04",
+    topic: "Lecture 5 - Health",
+    type: "open_response",
+    prompt: "A self-employed street vendor earns money only for the hours he's actually selling — an afternoon spent at a free health clinic is an afternoon of lost income, with no employer to authorize time off. A salaried factory worker earning the same monthly income can take a paid afternoon off for the same clinic visit at no lost pay. \n&emsp;&emsp;(a) Using the time-cost model, explain why the vendor is less likely to use the free clinic than the salaried worker, even though their incomes and the price of care are identical. \n&emsp;&emsp;(b) Does this argument imply that raising the vendor's daily earnings would increase or decrease his clinic visits? \n&emsp;&emsp;(c) What kind of intervention lowers his effective time cost without requiring him to earn less that day?",
+    minutes: 10.5
+  },
 
     // ============================================
   // LECTURE 6 — Unhealthy behaviors
