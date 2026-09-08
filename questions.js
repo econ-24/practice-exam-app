@@ -710,6 +710,41 @@ const questions = [
     prompt: "A government in central Africa has learned that HIV prevalence during the COVID pandemic has decreased substantially.  Proud of this, the government is considering announcing this finding with much fanfare across the country.  Under what conditions is this likely to be counterproductive in the sense that it might reverse the progress against HIV?",
     minutes: 10.5
   },
+   {
+    id: "lc6-or-07",
+    topic: "Lecture 6 - Unhealthy behaviors",
+    type: "open_response",
+    prompt: "Two countries have an identical true return to smoking-cessation effort. Show how they can nonetheless settle into very different long-run smoking rates, simply because one country happened to start out with more smokers than the other.",
+    minutes: 10.5
+  },
+   {
+    id: "lc6-or-08",
+    topic: "Lecture 6 - Unhealthy behaviors",
+    type: "open_response",
+    prompt: "Someone who exercises regularly gets a routine checkup and learns they have a minor heart irregularity that their doctor says isn't made worse by moderate exercise. What do we expect to happen to how much they exercise?",
+    minutes: 10.5
+  },
+   {
+    id: "lc6-or-09",
+    topic: "Lecture 6 - Unhealthy behaviors",
+    type: "open_response",
+    prompt: "A cyclist who regularly commutes through a certain intersection learns that it has an above-average accident rate — a fact that was always true, just newly known to her. What do we expect to happen to how often she takes that route to work?",
+    minutes: 10.5
+  },
+   {
+    id: "lc6-or-10",
+    topic: "Lecture 6 - Unhealthy behaviors",
+    type: "open_response",
+    prompt: "In several smallholder farming regions, take-up of irrigation and drought insurance remains low even in years following unusually well-documented, successful payouts to nearby farmers. Farmers in these communities commonly describe crop outcomes as being 'in God's hands.' What might explain this pattern?",
+    minutes: 10.5
+  },
+   {
+    id: "lc6-or-11",
+    topic: "Lecture 6 - Unhealthy behaviors",
+    type: "open_response",
+    prompt: "In several TB treatment programs, patients who start feeling better after a few weeks often stop taking their medication before finishing the full course — even though stopping early is strongly linked to relapse and drug resistance, and completing the course is cheap and highly effective. Patients who credit their improvement to chance or luck are especially likely to stop early. What do we expect this to imply about their odds of completing treatment, compared to a patient who credits the medication itself for their improvement?",
+    minutes: 10.5
+  },
     // ============================================
   // LECTURE 7 — Policy brief 2: Undersupplying global health innovation
   // ============================================
