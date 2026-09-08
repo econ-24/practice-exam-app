@@ -888,7 +888,34 @@ const questions = [
     prompt: "Reducing the price of fertilizer by 50% had a smaller effect on take-up than offering a small post-harvest voucher.",
     minutes: 1.5
   },
-
+  {
+  id: "lc8-tf-08",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "true_false",
+  prompt: "Scarcity only distorts decision-making once a household's cognitive bandwidth is fully exhausted.",
+  minutes: 1.5
+},
+{
+  id: "lc8-tf-09",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "true_false",
+  prompt: "Two people with identical financial resources will make equally good decisions, since decision quality depends only on how much money you have, not on how much you are currently worrying about it.",
+  minutes: 1.5
+},
+{
+  id: "lc8-tf-10",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "true_false",
+  prompt: "Being poor makes people more willing to take risks, since they have less to lose.",
+  minutes: 1.5
+},
+{
+  id: "lc8-tf-11",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "true_false",
+  prompt: "A temporary incentive to try something new can only change behavior for as long as it is being paid; once removed, behavior always reverts to baseline.",
+  minutes: 1.5
+},
   {
     id: "lc8-or-01",
     topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
@@ -928,6 +955,41 @@ const questions = [
     prompt: "Haushofer & Fehr (2014) argue that poverty increases risk aversion as well as present bias. Show how higher risk aversion compounds the underinvestment problem derived from present bias alone.",
     minutes: 10.5
   },
+  {
+  id: "lc8-or-06",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "open_response",
+  prompt: "Using the β-δ model, explain why a 1kg lentil incentive raised immunization completion far more than the vaccine's own free, life-saving benefit did. What does this reveal about relying on price alone to drive investment in health?",
+  minutes: 10.5
+},
+{
+  id: "lc8-or-07",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "open_response",
+  prompt: "A rural health program offers free prenatal checkups requiring three clinic visits over two months and substantially reduces infant mortality. Take-up is very low. Officials propose two fixes: (a) more public messaging about how serious infant mortality is, or (b) a small bag of rice at each visit. Using the β-δ model, predict which is more likely to raise attendance, and explain why the 'obvious' fix might fail.",
+  minutes: 10.5
+},
+{
+  id: "lc8-or-08",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "open_response",
+  prompt: "Two farmers have identical landholdings, identical expected harvest value, and face an identical decision about taking out a fertilizer loan. One is currently three weeks behind on a debt payment and being pressured by a lender; the other is not. Explain why these two farmers might make different decisions, even though their financial fundamentals are the same.",
+  minutes: 10.5
+},
+{
+  id: "lc8-or-09",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "open_response",
+  prompt: "An NGO offers smallholder farmers a drought-resistant seed with a higher average yield but more variable year-to-year output than the traditional variety. Uptake is far lower among the poorest farmers than wealthier ones, even after controlling for how much they'd need to borrow. Give an explanation for this gap that does not rely on credit constraints.",
+  minutes: 10.5
+},
+{
+  id: "lc8-or-10",
+  topic: "Lecture 8 - Scarcity, Time, and Underinvestment",
+  type: "open_response",
+  prompt: "Two savings programs are proposed for market vendors. Program A gives each vendor a labeled tin for 'health savings,' with no restriction on withdrawal. Program B requires committing to a savings goal and locks funds until it's reached, with no bonus interest. Both raise savings substantially, but far fewer vendors sign up for Program B. Explain why both programs work despite opposite logics, and predict which type of household is more likely to choose each.",
+  minutes: 10.5
+},
   // ============================================
   // LECTURE 9 — Poor hedge fund managers
   // ============================================
