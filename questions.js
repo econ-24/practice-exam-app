@@ -1120,6 +1120,20 @@ const questions = [
     prompt: "We regularly see the most vulnerable in society killed by that society during periods of aggregate crisis.  Explain why this doesn’t happen in normal times, why it doesn’t happen with idiosyncratic shocks, and the economic logic of this phenomena.",
     minutes: 10.5
   },
+    {
+    id: "lc9-or-06",
+    topic: "Lecture 9 - Poor hedge fund managers",
+    type: "open_response",
+    prompt: "Two Borana pastoralist households are hit by the same regional drought. Household A's herd is left with 40 animals; household B, whose herd was smaller to begin with, is left with 15. From that point on, every year brings completely normal rainfall for both households. A decade later, household A is herding roughly 150 animals. Household B has only 3 left. Walk through the economic logic behind this divergence.",
+    minutes: 10.5
+  },
+    {
+    id: "lc9-or-07",
+    topic: "Lecture 9 - Poor hedge fund managers",
+    type: "open_response",
+    prompt: "A village's rotating credit-and-insurance group works exactly as intended for years, smoothing out each member's individual bad luck. Then a region-wide crop blight hits every household in the group at once. With no member able to lend, one household sells off enough of its land to cover the shortfall, dropping below the minimum plot size needed to farm efficiently. The blight passes, and weather and prices stay completely normal from then on. A decade later, the household is still renting out its land for subsistence wages rather than farming it. Why did the insurance arrangement fail exactly when the household needed it most, and why didn't its fortunes reverse once conditions returned to normal?",
+    minutes: 10.5
+  },
 
   // ============================================
   // LECTURE 10 — Why saving is hard
