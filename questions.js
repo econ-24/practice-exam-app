@@ -1231,7 +1231,21 @@ const questions = [
     id: "lc10-or-04",
     topic: "Lecture 10 - Why saving is hard",
     type: "open_response",
-    prompt: "What are the different ways we have discussed to promote savings in this and the behavioral lecture.  Discuss the friction that each of those different savings promotion mechanisms are designed to address and what frictions they do not.",
+    prompt: "What are the different ways we have discussed to promote savings in this and the behavioral lecture? Discuss the friction that each of those different savings promotion mechanisms are designed to address and what frictions they do not.",
+    minutes: 10.5
+  },
+   {
+    id: "lc10-or-05",
+    topic: "Lecture 10 - Why saving is hard",
+    type: "open_response",
+    prompt: "SunCulture sells solar irrigation pumps to Kenyan smallholder farmers through a Pay-As-You-Grow plan: small monthly installments instead of the full purchase price upfront (SunCulture). Adopting farmers report yield increases of up to 300%, and 87% report higher incomes as a result (British International Investment, 2024). Using the savings-poverty-trap model, explain why a farmer saving toward a pump on her own might never accumulate the purchase price, and why this financing structure changes that outcome.",
+    minutes: 10.5
+  },
+   {
+    id: "lc10-or-06",
+    topic: "Lecture 10 - Why saving is hard",
+    type: "open_response",
+    prompt: "A fruit vendor in Chennai borrows about $50 every morning and repays $55 by evening — a roughly 10% daily interest rate — and has done this for over ten years. Saving just $1 a day would make her debt-free within a month. If she's fully rational, this only makes sense if giving up a dollar of consumption today is genuinely unbearable for her. What would you check in her actual spending to test that, and what are potential explanations for this behavior if she turns out to have money left over for small non-essential purchases?",
     minutes: 10.5
   },
 
