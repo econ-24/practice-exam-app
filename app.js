@@ -10,7 +10,7 @@ function getUniqueTopics(questionList) {
 }
 
 // Take that list of topics and draw one checkbox per topic onto the page.
-const MIDTERM_CUTOFF = 13;
+const MIDTERM_CUTOFF = 16;
 
 function getLectureNumber(topic) {
   const match = topic.match(/^Lecture (\d+)/);
