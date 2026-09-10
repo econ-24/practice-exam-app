@@ -1448,6 +1448,21 @@ const questions = [
     prompt: "De Mel, McKenzie & Woodruff’s post-tsunami Sri Lanka cash-grant experiment found that the returns to injected working capital were similar for male-run and female-run microenterprises.",
     minutes: 1.5
   },
+  {
+    id: "lc12-tf-11",
+    topic: "Lecture 12 - The informal economy",
+    type: "true_false",
+    prompt: "If a country relaxes its minimum wage in the formal sector, holding everything else fixed, the non-separable farm household model (with a binding cap on the number of hours available at the formal wage) predicts that a labor-constrained household will increase the amount of time it spends working in its own family business.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc12-tf-12",
+    topic: "Lecture 12 - The informal economy",
+    type: "true_false",
+    prompt: "In a separable farm household model, an increase in farm productivity that raises the household's farm profit will, other things equal, tend to reduce the total number of hours the household chooses to work, even if the amount of labor hired on the farm itself rises.",
+    minutes: 1.5
+  },
 
   {
     id: "lc12-or-01",
@@ -1510,6 +1525,20 @@ const questions = [
     topic: "Lecture 12 - The informal economy",
     type: "open_response",
     prompt: "Consider a trade liberalization that raises the productivity of labor in large-scale enterprises in a rural community. Assume it has no effect on the productivity or profitability of labor in family farms or enterprises. How does this affect the allocation of labor between family enterprises and the wage-labor market, and the share of family income coming from the home enterprise?",
+    minutes: 10.5
+  },
+  {
+    id: "lc12-or-09",
+    topic: "Lecture 12 - The informal economy",
+    type: "open_response",
+    prompt: "Consider a separable farm household model in which the household can hire in or hire out labor at the going market wage. Suppose the market wage rises. (a) What happens to the household's farm profit? (b) What happens to the household's own labor supply — is the effect ambiguous, as it would be in the standard labor-supply model where non-labor income is fixed, or is it unambiguous here? Explain your reasoning. (c) Under what conditions could this shock cause the household to switch from being a net hirer of labor to a net seller of labor, or vice versa?",
+    minutes: 10.5
+  },
+  {
+    id: "lc12-or-10",
+    topic: "Lecture 12 - The informal economy",
+    type: "open_response",
+    prompt: "Vietnam's special-economic-zone (SEZ) program has led to the rapid construction of foreign-owned factories in specific rural districts, with no corresponding change in the productivity of household farming or home enterprises in those same districts. Using a multi-activity labor-allocation model — in which a household splits a fixed time budget T between home enterprise/farm work and wage work — explain what happens to the household's time allocation and to the market wage when a new SEZ opens nearby. Which curve shifts, and why does the household's time in home enterprise/farm work change?",
     minutes: 10.5
   },
 
