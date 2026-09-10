@@ -1883,6 +1883,21 @@ const questions = [
     prompt: "Urbanization and health: A student argues: “Sub-Saharan African cities have such bad sanitation and crowding that moving to a city must be bad for families’ health, even if wages are higher.” \n&emsp;&emsp;(a) Is this claim correct on average? \n&emsp;&emsp;(b) For whom is the claim most likely to be correct? \n&emsp;&emsp;(c) How should concerns about health and amenities enter a migration-decision model that until now has used only wages and moving costs? Connect your answer to what we study about slums.",
     minutes: 10.5
   }, 
+  {
+    id: "lc15-or-09",
+    topic: "Lecture 15 - Why cities grow",
+    type: "open_response",
+    prompt: "India's Rural Employment Guarantee: Starting in the mid-2000s, India's National Rural Employment Guarantee Scheme rolled out a legal guarantee of up to 100 days per year of paid public-works employment in rural areas, phased in across districts in three waves. Model the program as a shock that raises the rural wage directly. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) rural wages \n&emsp;&emsp;(b) rural-to-urban migration \n&emsp;&emsp;(c) urban population \n&emsp;&emsp;(d) urban unemployment. \n&emsp;&emsp;Imbert and Papp (2020) find that the program reduced short-term, seasonal migration to cities more than it changed permanent settlement patterns. Does the basic HT model, which treats migration as a single once-and-for-all decision, capture this seasonal channel? What would need to be added to the model to account for it?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc15-or-10",
+    topic: "Lecture 15 - Why cities grow",
+    type: "open_response",
+    prompt: "Bangladesh's garment sector squeeze: Between 2023 and 2026, rising input costs, including industrial gas tariffs up roughly 286 percent and electricity up roughly 33 percent, combined with rapid automation, where a factory needed only about 94 workers per million dollars of output in 2024 compared to about 220 in 2013, pushed over 400 ready-made garment factories out of business even as the country's total garment export earnings kept growing. Urban garment manufacturing is concentrated in Dhaka and Chittagong, and a binding minimum wage sets the urban formal wage. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) urban labor demand \n&emsp;&emsp;(b) urban formal employment \n&emsp;&emsp;(c) rural-to-urban migration \n&emsp;&emsp;(d) the urban informal sector. \n&emsp;&emsp;Since total export earnings rose even as employment fell, does this episode still count as a negative shock to urban labor demand in the model's terms, or does it call for a different kind of shock altogether? Explain briefly.",
+    minutes: 10.5
+  },
 
     // ============================================
   // LECTURE 16 — Why slums exist
