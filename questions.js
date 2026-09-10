@@ -1364,390 +1364,394 @@ const questions = [
     prompt: "What explains the existence of credit rationing in low-income countries? Make sure you precisely define credit rationing in your answer.",
     minutes: 10.5
   },
-
-    // ============================================
-  // LECTURE 12 — The informal economy
+  // ============================================
+  // LECTURE 12 — Policy brief 3 - Climate change
   // ============================================
 
   {
     id: "lc12-tf-01",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "Suppose 14 percent of the Indian labor force is in self-employment. From this fact, we can conclude that at least 14 percent of the labor force in India is in the informal sector.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-02",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "The rise in the urban informal sector in Latin America over the last decade can be explained by the easing of restrictions on hiring and firing in the formal sector and the relaxation of the minimum wage.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-03",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "Household consumption decisions are made independently of household production decisions in households that operate a farm or a business.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-04",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "The observation that many families with businesses or farms simultaneously hire in labor and sell their own labor in the formal labor market suggests market imperfections in the formal labor market that prevent market clearing.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-05",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "If labor demand in a family business depends on household composition, then there must be constraints on family members’ ability to find work outside of the household.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-06",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "Most labor in low-income countries works on the family farm. Thus, we expect to see that the value of labor’s marginal product on the family farm is below the market wage.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-07",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "Hsieh & Olken (2014), using microdata on Indian, Indonesian, and Mexican firms, document a pronounced “missing middle” separating small informal firms from large formal firms.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-08",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "Under monopsony in the formal labor market, the wage the employer pays equals the worker’s marginal revenue product.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-09",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "If persistent poverty reflects fundamental differences in ability rather than differences in access to capital, a large one-off productive-asset transfer should permanently raise recipient income.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-10",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "De Mel, McKenzie & Woodruff’s post-tsunami Sri Lanka cash-grant experiment found that the returns to injected working capital were similar for male-run and female-run microenterprises.",
-    minutes: 1.5
-  },
-  {
-    id: "lc12-tf-11",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "If a country relaxes its minimum wage in the formal sector, holding everything else fixed, the non-separable farm household model (with a binding cap on the number of hours available at the formal wage) predicts that a labor-constrained household will increase the amount of time it spends working in its own family business.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-tf-12",
-    topic: "Lecture 12 - The informal economy",
-    type: "true_false",
-    prompt: "In a separable farm household model, an increase in farm productivity that raises the household's farm profit will, other things equal, tend to reduce the total number of hours the household chooses to work, even if the amount of labor hired on the farm itself rises.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc12-or-01",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "Why is there so much self-employment and entrepreneurship in low-income countries?",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc12-or-02",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "Consider two Indian states, West Bengal and Maharashtra. Model rigid labor laws as a restriction on the availability of employment outside of the household. Show that, under this model, the productivity of labor in home enterprises is higher in Maharashtra than in West Bengal.",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc12-or-03",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "The Philippines government is considering giving unrestricted grants to entrepreneurs in the hope of fostering the growth of small enterprises. Use a non-separable household model to argue that these grants will decrease the time a household spends in entrepreneurship and small enterprises.",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc12-or-04",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "Malawi’s shortage of foreign currency led it to be unable to import fertilizer. Model this as a negative shock to farm productivity in the farm household model. Explain why the impact of this productivity shock on household living standards is larger in the non-separable version of the farm household model. What protects living standards in the separable model?",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc12-or-05",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "In a separable farm household model, what is true about the relationship between profit maximization, the labor choice, and consumption/leisure decisions?",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc12-or-06",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "In parts of rural Nepal, many prime-age men work abroad and remit money home. Suppose a crisis cuts off remittances. Using a non-separable farm household model with binding constraints on off-farm employment, show that the decline in remittances can leave off-farm employment unchanged while increasing time spent on the family farm.",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc12-or-07",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "Explain how the way a family shares resources can create incentives for surplus labor.",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc12-or-08",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "Consider a trade liberalization that raises the productivity of labor in large-scale enterprises in a rural community. Assume it has no effect on the productivity or profitability of labor in family farms or enterprises. How does this affect the allocation of labor between family enterprises and the wage-labor market, and the share of family income coming from the home enterprise?",
-    minutes: 10.5
-  },
-  {
-    id: "lc12-or-09",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "Consider a separable farm household model in which the household can hire in or hire out labor at the going market wage. Suppose the market wage rises. (a) What happens to the household's farm profit? (b) What happens to the household's own labor supply — is the effect ambiguous, as it would be in the standard labor-supply model where non-labor income is fixed, or is it unambiguous here? Explain your reasoning. (c) Under what conditions could this shock cause the household to switch from being a net hirer of labor to a net seller of labor, or vice versa?",
-    minutes: 10.5
-  },
-  {
-    id: "lc12-or-10",
-    topic: "Lecture 12 - The informal economy",
-    type: "open_response",
-    prompt: "Vietnam's special-economic-zone (SEZ) program has led to the rapid construction of foreign-owned factories in specific rural districts, with no corresponding change in the productivity of household farming or home enterprises in those same districts. Using a multi-activity labor-allocation model — in which a household splits a fixed time budget T between home enterprise/farm work and wage work — explain what happens to the household's time allocation and to the market wage when a new SEZ opens nearby. Which curve shifts, and why does the household's time in home enterprise/farm work change?",
-    minutes: 10.5
-  },
-
-    // ============================================
-  // LECTURE 13 — Why workers leave agriculture
-  // ============================================
-
-  {
-    id: "lc13-tf-01",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "Security of title is necessary to incentivise investment in land such as letting fields lie fallow.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-tf-02",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "In Indian farm data with enough large farms to observe the upper tail, output per acre declines monotonically as farm size rises.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-tf-03",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "A tax on agricultural land has zero efficiency cost as long as land is in fixed supply and complementary assets remain with the land.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-tf-04",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "When a single Indian farmer simultaneously cultivates both her own land and sharecropped land, output per acre is lower on the sharecropped plots — and this within-farmer gap is driven by the fact that sharecroppers are lower-ability farmers than owner-operators.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-tf-05",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "Panel data following the same worker as she moves from agriculture to non-agriculture in a developing country show that no productivity gap remains within individuals, implying that the cross-sectional agricultural productivity gap is entirely selection.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-tf-06",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "A field experiment in rural Bangladesh that offered an $8.50 cash incentive to migrate seasonally found only a small increase in migration, implying that mobility frictions are modest.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-tf-07",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "West Bengal’s Operation Barga raised agricultural productivity primarily by redistributing ownership of land from landlords to sharecroppers.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-tf-08",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "true_false",
-    prompt: "Monopsony in the formal-sector labor market creates a wedge between wages and marginal revenue product, and this wedge can help sustain a persistent non-agriculture / agriculture productivity gap.",
-    minutes: 1.5
-  },
-
-  {
-    id: "lc13-or-01",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "open_response",
-    prompt: "Bolivia tenancy reform: Two-thirds of land in Bolivia is held by under one percent of farms, and sharecropping is widespread. The government is considering assigning long-term tenancy rights to sharecroppers — without redistributing ownership. Predict the effect on \n&emsp;&emsp;(i) tenant effort and output per acre \n&emsp;&emsp;(ii) tenant access to credit and insurance \n&emsp;&emsp;(iii) labor-market outcomes for the landless who do not benefit from the reform. \n&emsp;&emsp;Identify at least one general-equilibrium channel that alters your prediction once agricultural wages and land rents adjust.",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc13-or-02",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "open_response",
-    prompt: "Bangladesh seasonal migration: During the monga lean season in northern Bangladesh, seasonal unemployment coexists with strong urban labor demand. A field experiment found that an $8.50 travel subsidy raised seasonal migration by 22 percentage points and household consumption by∼30%. \n&emsp;&emsp;(a) Use a non-separable farm-household model with a binding off-farm-employment constraint to explain why affected households appear to underinvest in migration absent the subsidy. \n&emsp;&emsp;(b) Using general-equilibrium reasoning (wages, food prices, selection into the program), explain why a universal migration subsidy would produce smaller aggregate welfare gains than a naive scaling-up of the experimental estimates would suggest.",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc13-or-03",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "open_response",
-    prompt: "Zimbabwe 2000: In 2000 the government of Zimbabwe argued that 4,500 white farmers held 70% of the country’s best agricultural land and expropriated their farms, redistributing plots to landless war veterans. \n&emsp;&emsp;Using the economic argument that a tax or forced transfer of a fixed-supply asset has no deadweight loss, explain the conditions under which this reform should raise aggregate agricultural output. \n&emsp;&emsp;Using the complementary-inputs argument, explain the conditions under which it lowers aggregate output. \n&emsp;&emsp;Which assumption of the fixed-asset efficiency argument was violated in Zimbabwe’s experience?",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc13-or-04",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "open_response",
-    prompt: "Nutrition–wage trap and land redistribution: Consider a rural economy in which many workers cannot afford the calories needed for full labor productivity (the nutrition-based efficiency-wage trap from earlier in the course). Landlords pay piece rates that leave the poorest workers chronically undernourished. A reform redistributes land from large landlords to the rural poor. Show that \n&emsp;&emsp;(a) in the short run, beneficiaries’ calorie intake and labor productivity rise, but \n&emsp;&emsp;(b) equilibrium wages for the remaining landless workers can fall, and involuntary unemployment can emerge. \n&emsp;&emsp;Under what conditions do long-run effects differ from short-run ones?",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc13-or-05",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "open_response",
-    prompt: "Effective contracts and the case for land reform: Suppose a country enacts a legal reform that can enforce written contracts at low cost and allows any asset, including land, to be posted as collateral on borrowing. Explain how this reform weakens the economic case for redistributing land from large landowners to the rural poor. Specifically, which credit-market and insurance-market frictions from earlier in the semester does the case for redistribution rest on?",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc13-or-06",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "open_response",
-    prompt: "Indian farm consolidation: Recent estimates from Indian panel data suggest that consolidating farms to the technology-optimal size of∼24 acres would raise output per acre by 42% but reduce the agricultural workforce by 16%. \n&emsp;&emsp;(a) Using a non-separable farm-household model, explain why the households currently operating sub-optimally small farms may not voluntarily sell or rent out their land to consolidators. \n&emsp;&emsp;(b) Propose two complementary policies, each targeting a specific wedge τi , that would increase the probability that aggregate welfare rises after consolidation.",
-    minutes: 10.5
-  },
-
-  {
-    id: "lc13-or-07",
-    topic: "Lecture 13 - Why workers leave agriculture",
-    type: "open_response",
-    prompt: "Land-price puzzle: In many rural areas, the sale price of agricultural land substantially exceeds the present discounted value of the agricultural income the buyer can earn from it. Give three distinct economic reasons for the premium, each drawing on material from this or a prior lecture. Which of your reasons is most consistent with the observation that secure titles are the exception rather than the rule?",
-    minutes: 10.5
-  },
-   // ============================================
-  // LECTURE 14 — Policy brief 3 - Climate change
-  // ============================================
-
-  {
-    id: "lc14-tf-01",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "true_false",
     prompt: "If an index insurance contract is actuarially fair, then it necessarily provides strong consumption smoothing for poor households.",
     minutes: 1.5
   },
 
   {
-    id: "lc14-tf-02",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-tf-02",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "true_false",
     prompt: "When adaptation has a fixed cost, liquidity constraints can prevent adoption even when expected returns are positive.",
     minutes: 1.5
   },
 
   {
-    id: "lc14-tf-03",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-tf-03",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "true_false",
     prompt: "Aggregate climate shocks are easier for informal insurance networks to smooth than idiosyncratic shocks.",
     minutes: 1.5
   },
 
   {
-    id: "lc14-tf-04",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-tf-04",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "true_false",
     prompt: "Reducing false negative basis risk is more important than reducing false positive basis risk when the goal is to protect subsistence consumption.",
     minutes: 1.5
   },
 
   {
-    id: "lc14-tf-05",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-tf-05",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "true_false",
     prompt: "Policies that target frequent, low loss shocks should rely primarily on market insurance rather than savings or liquidity tools.",
     minutes: 1.5
   },
 
   {
-    id: "lc14-or-01",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-or-01",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "open_response",
     prompt: "Explain how liquidity constraints interact with fixed costs of adaptation to generate slow adoption. Provide one policy that relaxes this constraint and describe its mechanism.",
     minutes: 10.5
   },
 
   {
-    id: "lc14-or-02",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-or-02",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "open_response",
     prompt: "Distinguish adaptation from mitigation in the context of poor households facing climate risk. Give one example of each and explain why governments may prioritize one over the other.",
     minutes: 10.5
   },
 
   {
-    id: "lc14-or-03",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-or-03",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "open_response",
     prompt: "Describe the concept of risk layering. For each layer, propose an appropriate policy instrument and justify why it matches the risk characteristics.",
     minutes: 10.5
   },
 
   {
-    id: "lc14-or-04",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-or-04",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "open_response",
     prompt: "Explain how basis risk affects both the demand for insurance and its effectiveness. Propose one contract design improvement and discuss its tradeoffs.",
     minutes: 10.5
   },
 
   {
-    id: "lc14-or-05",
-    topic: "Lecture 14 - Policy brief 3 - Climate change",
+    id: "lc12-or-05",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
     type: "open_response",
     prompt: "Discuss when migration functions as a substitute for local adaptation and when it complements it. What role do fixed costs play in shaping this decision for poor households?",
     minutes: 10.5
   },
+
+  // ============================================
+  // LECTURE 13 — The informal economy
+  // ============================================
+
+  {
+    id: "lc13-tf-01",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "Suppose 14 percent of the Indian labor force is in self-employment. From this fact, we can conclude that at least 14 percent of the labor force in India is in the informal sector.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-02",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "The rise in the urban informal sector in Latin America over the last decade can be explained by the easing of restrictions on hiring and firing in the formal sector and the relaxation of the minimum wage.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-03",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "Household consumption decisions are made independently of household production decisions in households that operate a farm or a business.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-04",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "The observation that many families with businesses or farms simultaneously hire in labor and sell their own labor in the formal labor market suggests market imperfections in the formal labor market that prevent market clearing.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-05",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "If labor demand in a family business depends on household composition, then there must be constraints on family members’ ability to find work outside of the household.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-06",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "Most labor in low-income countries works on the family farm. Thus, we expect to see that the value of labor’s marginal product on the family farm is below the market wage.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-07",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "Hsieh & Olken (2014), using microdata on Indian, Indonesian, and Mexican firms, document a pronounced “missing middle” separating small informal firms from large formal firms.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-08",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "Under monopsony in the formal labor market, the wage the employer pays equals the worker’s marginal revenue product.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-09",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "If persistent poverty reflects fundamental differences in ability rather than differences in access to capital, a large one-off productive-asset transfer should permanently raise recipient income.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-10",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "De Mel, McKenzie & Woodruff’s post-tsunami Sri Lanka cash-grant experiment found that the returns to injected working capital were similar for male-run and female-run microenterprises.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-11",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "If a country relaxes its minimum wage in the formal sector, holding everything else fixed, the non-separable farm household model (with a binding cap on the number of hours available at the formal wage) predicts that a labor-constrained household will increase the amount of time it spends working in its own family business.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-tf-12",
+    topic: "Lecture 13 - The informal economy",
+    type: "true_false",
+    prompt: "In a separable farm household model, an increase in farm productivity that raises the household's farm profit will, other things equal, tend to reduce the total number of hours the household chooses to work, even if the amount of labor hired on the farm itself rises.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc13-or-01",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "Why is there so much self-employment and entrepreneurship in low-income countries?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-02",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "Consider two Indian states, West Bengal and Maharashtra. Model rigid labor laws as a restriction on the availability of employment outside of the household. Show that, under this model, the productivity of labor in home enterprises is higher in Maharashtra than in West Bengal.",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-03",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "The Philippines government is considering giving unrestricted grants to entrepreneurs in the hope of fostering the growth of small enterprises. Use a non-separable household model to argue that these grants will decrease the time a household spends in entrepreneurship and small enterprises.",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-04",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "Malawi’s shortage of foreign currency led it to be unable to import fertilizer. Model this as a negative shock to farm productivity in the farm household model. Explain why the impact of this productivity shock on household living standards is larger in the non-separable version of the farm household model. What protects living standards in the separable model?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-05",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "In a separable farm household model, what is true about the relationship between profit maximization, the labor choice, and consumption/leisure decisions?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-06",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "In parts of rural Nepal, many prime-age men work abroad and remit money home. Suppose a crisis cuts off remittances. Using a non-separable farm household model with binding constraints on off-farm employment, show that the decline in remittances can leave off-farm employment unchanged while increasing time spent on the family farm.",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-07",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "Explain how the way a family shares resources can create incentives for surplus labor.",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-08",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "Consider a trade liberalization that raises the productivity of labor in large-scale enterprises in a rural community. Assume it has no effect on the productivity or profitability of labor in family farms or enterprises. How does this affect the allocation of labor between family enterprises and the wage-labor market, and the share of family income coming from the home enterprise?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-09",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "Consider a separable farm household model in which the household can hire in or hire out labor at the going market wage. Suppose the market wage rises. \n&emsp;&emsp;(a) What happens to the household's farm profit? \n&emsp;&emsp;(b) What happens to the household's own labor supply — is the effect ambiguous, as it would be in the standard labor-supply model where non-labor income is fixed, or is it unambiguous here? Explain your reasoning. \n&emsp;&emsp;(c) Under what conditions could this shock cause the household to switch from being a net hirer of labor to a net seller of labor, or vice versa?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc13-or-10",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "Vietnam's special-economic-zone (SEZ) program has led to the rapid construction of foreign-owned factories in specific rural districts, with no corresponding change in the productivity of household farming or home enterprises in those same districts. Using a multi-activity labor-allocation model, explain what happens to the household's time allocation and to the market wage when a new SEZ opens nearby. Which curve shifts, and why does the household's time in home enterprise/farm work change?",
+    minutes: 10.5
+  },
+
+  // ============================================
+  // LECTURE 14 — Why workers leave agriculture
+  // ============================================
+
+  {
+    id: "lc14-tf-01",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "Security of title is necessary to incentivise investment in land such as letting fields lie fallow.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-tf-02",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "In Indian farm data with enough large farms to observe the upper tail, output per acre declines monotonically as farm size rises.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-tf-03",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "A tax on agricultural land has zero efficiency cost as long as land is in fixed supply and complementary assets remain with the land.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-tf-04",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "When a single Indian farmer simultaneously cultivates both her own land and sharecropped land, output per acre is lower on the sharecropped plots — and this within-farmer gap is driven by the fact that sharecroppers are lower-ability farmers than owner-operators.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-tf-05",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "Panel data following the same worker as she moves from agriculture to non-agriculture in a developing country show that no productivity gap remains within individuals, implying that the cross-sectional agricultural productivity gap is entirely selection.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-tf-06",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "A field experiment in rural Bangladesh that offered an $8.50 cash incentive to migrate seasonally found only a small increase in migration, implying that mobility frictions are modest.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-tf-07",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "West Bengal’s Operation Barga raised agricultural productivity primarily by redistributing ownership of land from landlords to sharecroppers.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-tf-08",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "true_false",
+    prompt: "Monopsony in the formal-sector labor market creates a wedge between wages and marginal revenue product, and this wedge can help sustain a persistent non-agriculture / agriculture productivity gap.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc14-or-01",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "open_response",
+    prompt: "Bolivia tenancy reform: Two-thirds of land in Bolivia is held by under one percent of farms, and sharecropping is widespread. The government is considering assigning long-term tenancy rights to sharecroppers — without redistributing ownership. Predict the effect on \n&emsp;&emsp;(i) tenant effort and output per acre \n&emsp;&emsp;(ii) tenant access to credit and insurance \n&emsp;&emsp;(iii) labor-market outcomes for the landless who do not benefit from the reform. \n&emsp;&emsp;Identify at least one general-equilibrium channel that alters your prediction once agricultural wages and land rents adjust.",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc14-or-02",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "open_response",
+    prompt: "Bangladesh seasonal migration: During the monga lean season in northern Bangladesh, seasonal unemployment coexists with strong urban labor demand. A field experiment found that an $8.50 travel subsidy raised seasonal migration by 22 percentage points and household consumption by∼30%. \n&emsp;&emsp;(a) Use a non-separable farm-household model with a binding off-farm-employment constraint to explain why affected households appear to underinvest in migration absent the subsidy. \n&emsp;&emsp;(b) Using general-equilibrium reasoning (wages, food prices, selection into the program), explain why a universal migration subsidy would produce smaller aggregate welfare gains than a naive scaling-up of the experimental estimates would suggest.",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc14-or-03",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "open_response",
+    prompt: "Zimbabwe 2000: In 2000 the government of Zimbabwe argued that 4,500 white farmers held 70% of the country’s best agricultural land and expropriated their farms, redistributing plots to landless war veterans. \n&emsp;&emsp;Using the economic argument that a tax or forced transfer of a fixed-supply asset has no deadweight loss, explain the conditions under which this reform should raise aggregate agricultural output. \n&emsp;&emsp;Using the complementary-inputs argument, explain the conditions under which it lowers aggregate output. \n&emsp;&emsp;Which assumption of the fixed-asset efficiency argument was violated in Zimbabwe’s experience?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc14-or-04",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "open_response",
+    prompt: "Nutrition–wage trap and land redistribution: Consider a rural economy in which many workers cannot afford the calories needed for full labor productivity (the nutrition-based efficiency-wage trap from earlier in the course). Landlords pay piece rates that leave the poorest workers chronically undernourished. A reform redistributes land from large landlords to the rural poor. Show that \n&emsp;&emsp;(a) in the short run, beneficiaries’ calorie intake and labor productivity rise, but \n&emsp;&emsp;(b) equilibrium wages for the remaining landless workers can fall, and involuntary unemployment can emerge. \n&emsp;&emsp;Under what conditions do long-run effects differ from short-run ones?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc14-or-05",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "open_response",
+    prompt: "Effective contracts and the case for land reform: Suppose a country enacts a legal reform that can enforce written contracts at low cost and allows any asset, including land, to be posted as collateral on borrowing. Explain how this reform weakens the economic case for redistributing land from large landowners to the rural poor. Specifically, which credit-market and insurance-market frictions from earlier in the semester does the case for redistribution rest on?",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc14-or-06",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "open_response",
+    prompt: "Indian farm consolidation: Recent estimates from Indian panel data suggest that consolidating farms to the technology-optimal size of∼24 acres would raise output per acre by 42% but reduce the agricultural workforce by 16%. \n&emsp;&emsp;(a) Using a non-separable farm-household model, explain why the households currently operating sub-optimally small farms may not voluntarily sell or rent out their land to consolidators. \n&emsp;&emsp;(b) Propose two complementary policies, each targeting a specific wedge τi , that would increase the probability that aggregate welfare rises after consolidation.",
+    minutes: 10.5
+  },
+
+  {
+    id: "lc14-or-07",
+    topic: "Lecture 14 - Why workers leave agriculture",
+    type: "open_response",
+    prompt: "Land-price puzzle: In many rural areas, the sale price of agricultural land substantially exceeds the present discounted value of the agricultural income the buyer can earn from it. Give three distinct economic reasons for the premium, each drawing on material from this or a prior lecture. Which of your reasons is most consistent with the observation that secure titles are the exception rather than the rule?",
+    minutes: 10.5
+  },
+ 
   // ============================================
   // LECTURE 15 — Why cities grow
   // ============================================
