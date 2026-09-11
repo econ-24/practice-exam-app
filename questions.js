@@ -2327,6 +2327,20 @@ const questions = [
     prompt: "African governments are scaling rural secondary schools at a time when urban formal-sector job creation is lagging far behind growth in the urban working-age population. \n&emsp;&emsp;a. Use the classical labor supply model with costly schooling to predict the effect of a large expansion of rural secondary schooling on a household’s choice of s∗. \n&emsp;&emsp;b. Now embed that household in a Harris–Todaro economy. As successive cohorts graduate, what happens to the expected urban wage, urban unemployment, and the migration decision facing the next rural cohort? \n&emsp;&emsp;c. In what sense does a successful rural schooling policy generate its own backlash against rural human-capital retention? What complementary policies does the joint model suggest a government should consider?",
     minutes: 10.5
   },
+  {
+    id: "lc19-or-06",
+    topic: "Lecture 19 - Adolescence",
+    type: "open_response",
+    prompt: "<strong>Sierra Leone's Free Quality School Education program.</strong> Sierra Leone entered this reform with some of the lowest education outcomes in the world, ranked 151st of 157 countries on the Human Capital Index, with just over half of children who start Grade 1 reaching the end of primary school and only about 14 in 100 completing senior secondary. In 2018, the government began reducing barriers to access to education through government payment for school, admission, and public examination fees, a fall in p, the direct cost of schooling, with the wage a child could earn outside school left unchanged. \n\n<strong>Your task.</strong> \n&emsp;&emsp;1. Use the costly schooling model to predict the effect of this fall in p on s* and on a child's time in work. \n&emsp;&emsp;2. Which households respond most? \n&emsp;&emsp;3. Now suppose a household has two children with different values of b, the return to schooling. The fee elimination lowers p by the same amount for both children. Does the model predict this closes, widens, or leaves untouched the gap in schooling between the two siblings? Defend your answer using the comparative static on p, not just intuition.",
+    minutes: 10.5
+},
+{
+    id: "lc19-or-07",
+    topic: "Lecture 19 - Adolescence",
+    type: "open_response",
+    prompt: "<strong>Mexico's nearshoring boom.</strong> Since 2020, nearshoring-exposed manufacturing industries in Mexico have seen up to 6.2% higher employment growth. In early 2024, labor shortages forced Toyota to halt production at its Tijuana plant for 19 days, and Mexico's minimum wage in the Northern Border Free Zone rose 20% in 2024 and another 12% in 2025, a rise in w, the wage, with the direct cost of schooling unchanged. \n\n<strong>Your task.</strong> \n&emsp;&emsp;1. Use the costly schooling model to predict the effect of this rise in w on s*. Is the sign guaranteed the way it was for Sierra Leone? \n&emsp;&emsp;2. State the condition on the household's own p, T, and Y that determines whether the wage increase raises or lowers schooling. \n&emsp;&emsp;3. Suppose the substitution effect wins for enough households that a large number of teenagers leave school for factory work. What should happen, in equilibrium, to the local supply of young workers competing for these jobs, and could this eventually undercut the very wage growth that pulled them out of school in the first place? What does this imply about treating w as fixed when predicting the effect of one household's decision versus predicting the effect on the whole town?",
+    minutes: 10.5
+},
 
     // ============================================
   // LECTURE 20 — Fertility
