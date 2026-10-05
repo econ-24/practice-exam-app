@@ -1134,6 +1134,13 @@ const questions = [
     prompt: "A village's rotating credit-and-insurance group works exactly as intended for years, smoothing out each member's individual bad luck. Then a region-wide crop blight hits every household in the group at once. With no member able to lend, one household sells off enough of its land to cover the shortfall, dropping below the minimum plot size needed to farm efficiently. The blight passes, and weather and prices stay completely normal from then on. A decade later, the household is still renting out its land for subsistence wages rather than farming it. Why did the insurance arrangement fail exactly when the household needed it most, and why didn't its fortunes reverse once conditions returned to normal?",
     minutes: 10.5
   },
+ {
+    id: "lc09-or-08",
+    topic: "Lecture 9 - Poor hedge fund managers",
+    type: "open_response",
+    prompt: "Consider two agents with identical mappings between wealth and utility.  Suppose one agent is wealthier.  Show that both agents can be better off if the wealthier agent takes on some of the poorer agent’s risk. Why is this insight important to this class?",
+    minutes: 10.5
+  },
 
   // ============================================
   // LECTURE 10 — Why saving is hard
