@@ -1245,7 +1245,7 @@ const questions = [
     id: "lc10-or-05",
     topic: "Lecture 10 - Why saving is hard",
     type: "open_response",
-    prompt: "SunCulture sells solar irrigation pumps to Kenyan smallholder farmers through a Pay-As-You-Grow plan: small monthly installments instead of the full purchase price upfront (SunCulture). Adopting farmers report yield increases of up to 300%, and 87% report higher incomes as a result (British International Investment, 2024). Using the savings-poverty-trap model, explain why a farmer saving toward a pump on her own might never accumulate the purchase price, and why this financing structure changes that outcome.",
+    prompt: "SunCulture sells solar irrigation pumps to Kenyan smallholder farmers through a Pay-As-You-Grow plan: small monthly installments instead of the full purchase price upfront (SunCulture). Adopting farmers report yield increases of up to 300%, and 87% report higher incomes as a result (British International Investment, 2024). Using the savings-poverty-trap model, explain why a farmer saving toward a pump on their own might never accumulate the purchase price, and why this financing structure changes that outcome.",
     minutes: 10.5
   },
 
