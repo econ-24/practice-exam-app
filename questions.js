@@ -1135,7 +1135,7 @@ const questions = [
     minutes: 10.5
   },
  {
-    id: "lc09-or-08",
+    id: "lc9-or-08",
     topic: "Lecture 9 - Poor hedge fund managers",
     type: "open_response",
     prompt: "Consider two agents with identical mappings between wealth and utility.  Suppose one agent is wealthier.  Show that both agents can be better off if the wealthier agent takes on some of the poorer agent’s risk. Why is this insight important to this class?",
