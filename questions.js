@@ -1616,7 +1616,7 @@ const questions = [
     id: "lc13-or-09",
     topic: "Lecture 13 - The informal economy",
     type: "open_response",
-    prompt: "Consider a separable farm household model in which the household can hire in or hire out labor at the going market wage. Suppose the market wage rises. \n&emsp;&emsp;(a) What happens to the household's farm profit? \n&emsp;&emsp;(b) What happens to the household's own labor supply — is the effect ambiguous, as it would be in the standard labor-supply model where non-labor income is fixed, or is it unambiguous here? Explain your reasoning. \n&emsp;&emsp;(c) Under what conditions could this shock cause the household to switch from being a net hirer of labor to a net seller of labor, or vice versa?",
+    prompt: "Consider a separable farm household model in which the household can hire in or hire out labor at the going market wage. Suppose the market wage rises.\n&emsp;&emsp;(a) What happens to the household's farm profit? \n&emsp;&emsp;(b) What happens to the household's own labor supply — is the effect ambiguous, as it would be in the standard labor-supply model where non-labor income is fixed, or is it unambiguous here? Explain your reasoning. \n&emsp;&emsp;(c) Under what conditions could this shock cause the household to switch from being a net hirer of labor to a net seller of labor, or vice versa?",
     minutes: 10.5
   },
 
@@ -1624,10 +1624,31 @@ const questions = [
     id: "lc13-or-10",
     topic: "Lecture 13 - The informal economy",
     type: "open_response",
-    prompt: "Vietnam's special-economic-zone (SEZ) program has led to the rapid construction of foreign-owned factories in specific rural districts, with no corresponding change in the productivity of household farming or home enterprises in those same districts. Using a multi-activity labor-allocation model, explain what happens to the household's time allocation and to the market wage when a new SEZ opens nearby. Which curve shifts, and why does the household's time in home enterprise/farm work change?",
+    prompt: "Vietnam's special-economic-zone (SEZ) program has led to the rapid construction of foreign-owned factories in specific rural districts, with no corresponding change in the productivity of household farming or home enterprises in those same districts. \n&emsp;&emsp;Using a multi-activity labor-allocation model, explain what happens to the household's time allocation and to the market wage when a new SEZ opens nearby. Which curve shifts, and why does the household's time in home enterprise/farm work change?",
+    minutes: 10.5
+  },
+   {
+    id: "lc13-or-11",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "India’s MGNREGA is the world’s largest workfare program and it has been replaced with a new program starting July 1, 2026.  MGNREGA (sometimes NREGA, sometimes NREGS) provided a 100 days of guaranteed work to all Indian households.  The new law raises the guarantee to 125 days, and requires state governments to announce in advance a period of up to 60 days each financial year when no works are undertaken, covering peak sowing and harvesting. This pause removes an outside wage option exactly in the weeks when farm labor demand peaks, and the stated goal is to lower farm wages. \n&emsp;&emsp;Use the separable farm household model to discuss the impact of this policy change on the allocation of labor and production.  How does your answer change in a nonseparable model? Your answer in the nonseparable model depends on the availability of labor.",
     minutes: 10.5
   },
 
+     {
+    id: "lc13-or-12",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "The Myanmar junta activated a new conscription law in February 2024. The new law covers men aged 18–35 and women aged 18–27, and young people have left in large numbers, mainly to Thailand. Local reports describe resulting labor shortages on plantations, farms, and in construction and fishing. \n&emsp;&emsp;Model this as a shock to household labor endowments.  What is its impact on farm output?",
+    minutes: 10.5
+  },
+       {
+    id: "lc13-or-13",
+    topic: "Lecture 13 - The informal economy",
+    type: "open_response",
+    prompt: "The US Government has aggressively been pursuing international migrants based in the US.  The result has been a large decline in remittances from the U.S.  For this exercise, consider the impact of this decline in remittances to rural Guatemalans.  This decline in remittances seems to stem from a decline in contact with formal banking institutions among Guatemalans living in the U.S. rather than a meaningful change in the number of migrants.  \n&emsp;&emsp;What would you expect the impact of this decline in remittances to have on farm output in rural Guatemala?",
+    minutes: 10.5
+  },
   // ============================================
   // LECTURE 14 — Why workers leave agriculture
   // ============================================
