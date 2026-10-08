@@ -1824,7 +1824,7 @@ const questions = [
     id: "lc15-or-01",
     topic: "Lecture 15 - Why cities grow",
     type: "open_response",
-    prompt: "China relaxes hukou restrictions: In the 1990s, China made rural-urban migration substantially easier. \n&emsp;&emsp;(a) Using the Harris–Todaro two-sector diagram, show how easier migration can raise urban involuntary unemployment when the urban formal wage does not adjust. \n&emsp;&emsp;(b) Separately, explain how easier rural out-migration might tighten credit rationing in rural areas and deter rural capital investment.",
+    prompt: "China relaxes hukou restrictions: In the 1990s, China made rural-urban migration substantially easier. \n&emsp;&emsp;(a) Using the Harris–Todaro two-sector diagram, show how easier migration can raise urban involuntary unemployment when the urban formal wage does not adjust.\n&emsp;&emsp;(b) Separately, explain how easier rural out-migration might tighten credit rationing in rural areas and deter rural capital investment.",
     minutes: 10.5
   },
 
@@ -1832,7 +1832,7 @@ const questions = [
     id: "lc15-or-02",
     topic: "Lecture 15 - Why cities grow",
     type: "open_response",
-    prompt: "Brazil’s urban-only minimum wage: President Lula raises the Brazilian minimum wage by 20%, enforced only in urban areas. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) rural wages \n&emsp;&emsp;(b) urban formal employment \n&emsp;&emsp;(c) the urban informal sector \n&emsp;&emsp;(d) the share of the population in rural areas. \n&emsp;&emsp;Would your answer change if rural workers were strongly risk-averse rather than risk-neutral? Explain briefly.",
+    prompt: "Brazil’s urban-only minimum wage: President Lula raises the Brazilian minimum wage by 20%, enforced only in urban areas. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) rural wages \n&emsp;&emsp;(b) urban formal employment \n&emsp;&emsp;(c) the urban informal sector \n&emsp;&emsp;(d) the share of the population in rural areas.\n&emsp;&emsp;Would your answer change if rural workers were strongly risk-averse rather than risk-neutral? Explain briefly.",
     minutes: 10.5
   },
 
@@ -1840,7 +1840,7 @@ const questions = [
     id: "lc15-or-03",
     topic: "Lecture 15 - Why cities grow",
     type: "open_response",
-    prompt: "Bangladesh textile quota lift: In the early 1990s, the U.S. exempted Bangladeshi textiles from its import quotas. Garment manufacturing for export is concentrated in Dhaka. Model this as a positive productivity shock to urban formal manufacturing, with a binding urban minimum wage that does not adjust and flexible rural wages. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) the urban population share \n&emsp;&emsp;(b) urban informal-sector size \n&emsp;&emsp;(c) rural wages. \n&emsp;&emsp;How would your prediction change if the Bangladeshi government simultaneously built new rural feeder roads, in the spirit of Asher and Novosad?",
+    prompt: "Bangladesh textile quota lift: In the early 1990s, the U.S. exempted Bangladeshi textiles from its import quotas. Garment manufacturing for export is concentrated in Dhaka. Model this as a positive productivity shock to urban formal manufacturing, with a binding urban minimum wage that does not adjust and flexible rural wages. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) the urban population share \n&emsp;&emsp;(b) urban informal-sector size \n&emsp;&emsp;(c) rural wages.\n&emsp;&emsp;How would your prediction change if the Bangladeshi government simultaneously built new rural feeder roads, in the spirit of Asher and Novosad?",
     minutes: 10.5
   },
 
@@ -1895,7 +1895,7 @@ const questions = [
     id: "lc15-or-10",
     topic: "Lecture 15 - Why cities grow",
     type: "open_response",
-    prompt: "Nigeria's manufacturing squeeze: Between 2023 and 2024, a naira devaluation and the removal of the fuel subsidy drove headline inflation to roughly 31.7 percent and made imported inputs and machinery far more expensive in naira terms. Manufacturing capacity utilization fell to about 56 percent, 767 manufacturing companies shut down in 2023 alone, and multinationals including GlaxoSmithKline and Procter & Gamble ended local production, even as underlying consumer demand for their products in Nigeria remained largely intact. Urban manufacturing is concentrated in Lagos, with a binding urban minimum wage that does not adjust. Focusing on the devaluation and not the fuel subsidy change, use the HT two-sector diagram to predict the impact of devaluation on \n&emsp;&emsp;a) urban labor demand \n&emsp;&emsp;(b) urban formal employment \n&emsp;&emsp;(c) rural-to-urban migration \n&emsp;&emsp;(d) the urban informal sector. \n&emsp;&emsp;Suppose there is no urban unemployment.  Does that change your answer? The devaluation was associated with a boom in Cocoa exports (correlation is not causation, but how might a devaluation cause that?).  Suppose cocoa is a rural product.  Add that Cocoa boom to your answer.  How does your answer about the impact of the devaluation change if Cocoa booms?",
+    prompt: "Nigeria's manufacturing squeeze: Between 2023 and 2024, a naira devaluation and the removal of the fuel subsidy drove headline inflation to roughly 31.7 percent and made imported inputs and machinery far more expensive in naira terms. Manufacturing capacity utilization fell to about 56 percent, 767 manufacturing companies shut down in 2023 alone, and multinationals including GlaxoSmithKline and Procter & Gamble ended local production, even as underlying consumer demand for their products in Nigeria remained largely intact. Urban manufacturing is concentrated in Lagos, with a binding urban minimum wage that does not adjust. Focusing on the devaluation and not the fuel subsidy change, use the HT two-sector diagram to predict the impact of devaluation on \n&emsp;&emsp;a) urban labor demand \n&emsp;&emsp;(b) urban formal employment \n&emsp;&emsp;(c) rural-to-urban migration \n&emsp;&emsp;(d) the urban informal sector.\n&emsp;&emsp;Suppose there is no urban unemployment.  Does that change your answer? The devaluation was associated with a boom in Cocoa exports (correlation is not causation, but how might a devaluation cause that?).  Suppose cocoa is a rural product.  Add that Cocoa boom to your answer.  How does your answer about the impact of the devaluation change if Cocoa booms?",
     minutes: 10.5
   },
     // ============================================
