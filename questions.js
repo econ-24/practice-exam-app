@@ -1919,6 +1919,27 @@ const questions = [
     prompt: "Nigeria's manufacturing squeeze: Between 2023 and 2024, a naira devaluation and the removal of the fuel subsidy drove headline inflation to roughly 31.7 percent and made imported inputs and machinery far more expensive in naira terms. Manufacturing capacity utilization fell to about 56 percent, 767 manufacturing companies shut down in 2023 alone, and multinationals including GlaxoSmithKline and Procter & Gamble ended local production, even as underlying consumer demand for their products in Nigeria remained largely intact. Urban manufacturing is concentrated in Lagos, with a binding urban minimum wage that does not adjust. Focusing on the devaluation and not the fuel subsidy change, use the HT two-sector diagram to predict the impact of devaluation on \n&emsp;&emsp;a) urban labor demand \n&emsp;&emsp;(b) urban formal employment \n&emsp;&emsp;(c) rural-to-urban migration \n&emsp;&emsp;(d) the urban informal sector.\n&emsp;&emsp;Suppose there is no urban unemployment.  Does that change your answer? The devaluation was associated with a boom in Cocoa exports (correlation is not causation, but how might a devaluation cause that?).  Suppose cocoa is a rural product. Add that Cocoa boom to your answer. How does your answer about the impact of the devaluation change if Cocoa booms?",
     minutes: 10.5
   },
+    {
+    id: "lc15-or-11",
+    topic: "Lecture 15 - Why cities grow",
+    type: "open_response",
+    prompt: "The Myanmar junta activated a new conscription law in February 2024. The new law covers men aged 18–35 and women aged 18–27, and young people have left in large numbers, mainly to Thailand. \n&emsp;&emsp;How would this change the allocation of labor between urban and rural areas as well as wages in each of those areas?",
+    minutes: 10.5
+  },
+    {
+    id: "lc15-or-12",
+    topic: "Lecture 15 - Why cities grow",
+    type: "open_response",
+    prompt: "Adapt the HT framework to consider migration between rural Guatemala and the U.S.  The US Government has aggressively been pursuing international migrants based in the US.  The result has been a large decline in remittances from the U.S.  \n&emsp;&emsp;Under what assumptions could the decline in remittances from the U.S. lead to an increase in migrants from rural Guatemala to the U.S. despite the hostile policy environment?  To answer this , you will need to consider the impact of declines in remittances on work capacity and rural labor markets.",
+    minutes: 10.5
+  },
+    {
+    id: "lc15-or-13",
+    topic: "Lecture 15 - Why cities grow",
+    type: "open_response",
+    prompt: "Afghanistan banned poppy production in 2022: Cultivation fell by about 95 percent, from 233,000 hectares in 2022 to 10,800 in 2023. Poppy had accounted for almost a third of the value of Afghan agricultural production. Poppy is very labor-intensive, so the ban was a large fall in demand for hired seasonal labor, especially for lancing. In 2023 wheat earned about $770 per hectare, against roughly $10,000 for poppy. \n&emsp;&emsp;What is the impact of this poppy ban on urban unemployment in Afghanistan?",
+    minutes: 10.5
+  },
     // ============================================
   // LECTURE 16 — Why slums exist
   // ============================================
