@@ -2024,6 +2024,62 @@ const questions = [
     minutes: 1.5
   },
 
+    {
+    id: "lc16-tf-11",
+    topic: "Lecture 16 - Why slums exist",
+    type: "true_false",
+    prompt: "Poor sanitation can trap households because illness lowers labor productivity, low income prevents the housing and nutrition upgrades that would reduce illness, and persistent illness keeps income low.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc16-tf-12",
+    topic: "Lecture 16 - Why slums exist",
+    type: "true_false",
+    prompt: "The slum is an open-access commons because there are no physical barriers to entry, and a slum where every household held secure, transferable title would be expected to behave less like a commons.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc16-tf-13",
+    topic: "Lecture 16 - Why slums exist",
+    type: "true_false",
+    prompt: "Eviction threats reduce investment in durables even in slums that are never actually cleared.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc16-tf-14",
+    topic: "Lecture 16 - Why slums exist",
+    type: "true_false",
+    prompt: "A government wants to raise household earnings in the short run and has money for either a titling program or a courts and foreclosure reform. Evidence from Peru suggests that titling is more likely to raise earnings through labor supply than through credit.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc16-tf-15",
+    topic: "Lecture 16 - Why slums exist",
+    type: "true_false",
+    prompt: "A city moves every household in a slum, neighbors together, into new housing on the city's outskirts. Because their social networks stay intact, residents should be no worse off than before.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc16-tf-16",
+    topic: "Lecture 16 - Why slums exist",
+    type: "true_false",
+    prompt: "The finding that consumption is flat or declining with years of residence implies slums are poverty traps.",
+    minutes: 1.5
+  },
+
+  {
+    id: "lc16-tf-17",
+    topic: "Lecture 16 - Why slums exist",
+    type: "true_false",
+    prompt: "A common objection to slum upgrading is that it will draw more migrants into the slum. If this objection is true, it necessarily follows that leaving the slum alone is the better policy.",
+    minutes: 1.5
+  },
+
   {
     id: "lc16-or-01",
     topic: "Lecture 16 - Why slums exist",
