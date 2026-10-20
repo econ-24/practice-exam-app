@@ -1834,14 +1834,6 @@ const questions = [
   },
 
   {
-    id: "lc15-tf-08",
-    topic: "Lecture 15 - Why cities grow",
-    type: "true_false",
-    prompt: "Asher and Novosad (2020) show that new feeder roads in Indian villages raised village agricultural productivity, farm income, and household asset holdings within four years of construction.",
-    minutes: 1.5
-  },
-
-  {
     id: "lc15-or-01",
     topic: "Lecture 15 - Why cities grow",
     type: "open_response",
@@ -1861,7 +1853,7 @@ const questions = [
     id: "lc15-or-03",
     topic: "Lecture 15 - Why cities grow",
     type: "open_response",
-    prompt: "Bangladesh textile quota lift: In the early 1990s, the U.S. exempted Bangladeshi textiles from its import quotas. Garment manufacturing for export is concentrated in Dhaka. Model this as a positive productivity shock to urban formal manufacturing, with a binding urban minimum wage that does not adjust and flexible rural wages. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) the urban population share \n&emsp;&emsp;(b) urban informal-sector size \n&emsp;&emsp;(c) rural wages.\n&emsp;&emsp;How would your prediction change if the Bangladeshi government simultaneously built new rural feeder roads, in the spirit of Asher and Novosad?",
+    prompt: "Bangladesh textile quota lift: In the early 1990s, the U.S. exempted Bangladeshi textiles from its import quotas. Garment manufacturing for export is concentrated in Dhaka. Model this as a positive productivity shock to urban formal manufacturing, with a binding urban minimum wage that does not adjust and flexible rural wages. Using the HT two-sector diagram, predict the impact on \n&emsp;&emsp;(a) the urban population share \n&emsp;&emsp;(b) urban informal-sector size \n&emsp;&emsp;(c) rural wages.",
     minutes: 10.5
   },
 
