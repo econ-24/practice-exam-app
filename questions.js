@@ -2286,7 +2286,76 @@ const questions = [
     prompt: "In a unitary household model, transferring $100 of income to the mother and transferring the same $100 to the father should produce identical eﬀects on child outcomes.",
     minutes: 1.5
   },
-
+  {
+    id: "lc18-tf-06",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "The Barker hypothesis states that deprivation before birth leaves persistent marks on adult disease risk through fetal programming.",
+    minutes: 1.5
+  },
+    {
+    id: "lc18-tf-07",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "The economic implication of dynamic complementarity is that early deficits in a child’s health and cognition should only be addressed through remediation, instead of prevention. ",
+    minutes: 1.5
+  },
+    {
+    id: "lc18-tf-08",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Dynamic complementarity means that the marginal return to a given amount of later investment is higher when the child’s early stock of human capital is higher.",
+    minutes: 1.5
+  },
+  {
+    id: "lc18-tf-09",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "The Jamaica result, where stunted toddlers who received home stimulation visits caught up in adult earnings to never-stunted children, is evidence that dynamic complementarity does not apply to children with early deficits.",
+    minutes: 1.5
+  },
+  {
+    id: "lc18-tf-10",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Early investments in human capital raise the return to all later investments.",
+    minutes: 1.5
+  },
+  {
+    id: "lc18-tf-11",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "The same in-utero shock is expected to have the same adult consequences whether it occurs in early pregnancy, mid to late pregnancy, or the first year after birth.",
+    minutes: 1.5
+  },
+  {
+    id: "lc18-tf-12",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "If a researcher observes that daughters get less schooling than sons in a household, this by itself proves that parents care less about daughters.",
+    minutes: 1.5
+  },
+  {
+    id: "lc18-tf-13",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "A researcher finds that a pension paid to a grandmother raises granddaughters’ height-for-age more than an equal pension paid to a grandfather. She can reject the unitary model on this evidence alone, without knowing why the two grandparents’ preferences differ.",
+    minutes: 1.5
+  },
+  {
+    id: "lc18-tf-14",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Suppose a country experiences a famine, and the share of daughters among children born during it rises compared with the years just before. Under Trivers-Willard, this shift reflects stressed parents choosing to have more girls.",
+    minutes: 1.5
+  },
+    {
+    id: "lc18-tf-15",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Suppose a country’s share of boys among newborns stays well above the biological norm for decades after a famine ends. Trivers-Willard is enough to explain this pattern.",
+    minutes: 1.5
+  },
   {
     id: "lc18-or-01",
     topic: "Lecture 18 - Poverty and gender gaps",
@@ -2327,12 +2396,33 @@ const questions = [
     minutes: 10.5
   },
 {
-    id: "lc18-or-6",
+    id: "lc18-or-06",
     topic: "Lecture 18 - Poverty and gender gaps",
     type: "open_response",
     prompt: "<strong>Model A: credit constraints (slide 20).</strong> Two children with different MR curves; effective r falls with development. With diminishing returns that <em>flatten</em> at high I: \n&emsp;&emsp;• Early (high r): both at low I, gap small. \n&emsp;&emsp;• Middle: optima on the steep portion where MR<sub>b</sub> - MR<sub>g</sub> is large, gap large. \n&emsp;&emsp;• Late (low r): both pushed onto the flat portion, MR<sub>b</sub> ≈ MR<sub>g</sub>, gap closes. \n\n<strong>Model B: S-shaped technology.</strong> H<sub>t+1</sub> = f<sub>i</sub>(H<sub>t</sub>) is S-shaped with sex-specific thresholds H̃<sub>g</sub> > H̃<sub>b</sub>. As initial endowment H<sub>0</sub> rises with development: \n&emsp;&emsp;• H<sub>0</sub> < H̃<sub>b</sub>: both stuck in the low trap, gap small. \n&emsp;&emsp;• H̃<sub>b</sub> < H<sub>0</sub> < H̃<sub>g</sub>: boys cross, girls don't, gap large. \n&emsp;&emsp;• H<sub>0</sub> > H̃<sub>g</sub>: both cross, gap small. \n\n<strong>Your task.</strong> \n&emsp;&emsp;1. For each model, name precisely the force that closes the gap at high development. \n&emsp;&emsp;2. What kind of empirical variation would distinguish the two? Consider credit-access shocks (microfinance, banking reform) holding H<sub>0</sub> fixed, vs. early-endowment shocks (famine cohorts, public-health roll-outs, prenatal CCTs) holding r fixed. \n&emsp;&emsp;3. Which framework do you find more compelling, or are they complementary? Argue your position with at least one supporting fact and at least one complicating fact from the lecture.",
     minutes: 10.5
 },
+ {
+    id: "lc18-or-07",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "open_response",
+    prompt: "Caste in India (jati, the endogamous local group) was historically tied to hereditary occupation, and although occupational inheritance has weakened and caste discrimination is unconstitutional, caste continues to shape labor markets through referral networks. \n&emsp;&emsp;Working-class castes maintained dense job networks that placed men in traditional blue-collar occupations, and these networks were male. Women in these castes historically had low labor force participation and were outside the networks. When liberalization in the 1990s raised the return to English-language white-collar work in Mumbai, boys from these castes continued to be channeled into Marathi-medium schooling and the traditional occupations their networks could deliver, while girls from the same castes switched to English-medium schooling at much higher rates. The network that was an asset for boys became a constraint on their response to new opportunities, and girls, who had no such network, responded more. \n&emsp;&emsp;New forms of employment therefore drew disproportionately on female labor from these groups. The growth of business process outsourcing (BPO) in India after 2000 is one such new form of employment. BPO jobs required secondary or tertiary schooling and English, had no caste-based recruiting channel, and hired women at high rates. \n&emsp;&emsp;Use the human capital investment model to analyze the effect of BPO growth on gender differences in education in India. Then suppose that AI automates most BPO work. What does the model predict for gender differences in education?",
+    minutes: 10.5
+  },
+   {
+    id: "lc18-or-08",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "open_response",
+    prompt: "In October 2010 the Government of Andhra Pradesh issued an ordinance (later the Andhra Pradesh Micro Finance Institutions Act) that in practice shut down for-profit microcredit in the state. The ordinance followed press reports of dozens of borrower suicides attributed to over-indebtedness and coercive collection by microfinance institutions, which had expanded rapidly in the state after 2005. \n&emsp;&emsp;It required MFIs to register with district authorities, prohibited door-to-door and weekly collection, barred lending to borrowers who already had a self-help group loan, and made new lending contingent on government approval. \n&emsp;&emsp;Repayment rates on existing MFI loans fell from near 99 percent to under 10 percent within months, and MFI lending in the state essentially stopped. Andhra Pradesh had accounted for roughly a quarter of India’s microfinance portfolio, and the shock propagated to MFI lending in other states as well. Treat this as a negative supply shock in the rural credit market that raises the equilibrium interest rate households face. \n&emsp;&emsp;a) Use the human capital investment model to argue that this negative credit shock will reduce gender differences in education. \n&emsp;&emsp;b) Most borrowers were women in landless households (not farmers) and most loans financed small non-farm enterprises. Use the human capital investment model and this observation about borrower demographics to argue that the ban will increase gender differences in education.",
+    minutes: 10.5
+  },
+   {
+    id: "lc18-or-09",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "open_response",
+    prompt: "Between 1978 and 1984 China replaced collective farming with the Household Responsibility System. Households leased land from the collective and, after meeting a quota, kept the proceeds from what they produced. In the same period the state raised procurement prices for agricultural goods, with especially large increases for cash crops including tea. Before the reform, tea revenue accrued to the collective, so a household’s income did not depend on the crops grown on its land. After the reform it did. \n&emsp;&emsp;Tea is grown in the hilly parts of southern China and tea picking is labor intensive and favors small, dexterous hands, so women and girls have a comparative advantage in it.\n&emsp;&emsp;a)Model the reform in tea counties as a permanent increase in the value of female labor, which raises the relative return to a daughter’s earning capacity and raises household income. \n&emsp;&emsp;Suppose human capital investment must be self-financed. What effect should the reform have on investment in daughters’ human capital relative to sons’? \n&emsp;&emsp;Explain how a permanent increase in the return to tea cultivation could raise daughters’ education relative to sons’, and how it could instead raise sons’ education relative to daughters’.",
+    minutes: 10.5
+  },
     // ============================================
   // LECTURE 19 — Adolescence
   // ============================================
