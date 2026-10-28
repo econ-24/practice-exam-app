@@ -2487,6 +2487,34 @@ const questions = [
     prompt: "A pure cash transfer to a household always raises a child’s schooling by at least as much as the same dollar amount delivered as a transfer conditional on attendance. Defend your answer with the relevant model.",
     minutes: 1.5
   },
+   {
+    id: "lc19-tf-06",
+    topic: "Lecture 19 - Adolescence",
+    type: "true_false",
+    prompt: "Because most working children are employed in export industries, expanding trade is the main driver of child labor.",
+    minutes: 1.5
+  },
+   {
+    id: "lc19-tf-07",
+    topic: "Lecture 19 - Adolescence",
+    type: "true_false",
+    prompt: "Because most child labor is unpaid work on the family’s own land or business, banning child employment in the formal sector would do little to raise school attendance for most working children.",
+    minutes: 1.5
+  },
+   {
+    id: "lc19-tf-08",
+    topic: "Lecture 19 - Adolescence",
+    type: "true_false",
+    prompt: "Agency issues are one argument for government intervention.",
+    minutes: 1.5
+  },
+   {
+    id: "lc19-tf-09",
+    topic: "Lecture 19 - Adolescence",
+    type: "true_false",
+    prompt: "Underinvestment in education can result from parents making schooling decisions and not fully internalizing the private returns to education.",
+    minutes: 1.5
+  },
 
   {
     id: "lc19-or-01",
@@ -2527,20 +2555,13 @@ const questions = [
     prompt: "African governments are scaling rural secondary schools at a time when urban formal-sector job creation is lagging far behind growth in the urban working-age population. \n&emsp;&emsp;a. Use the classical labor supply model with costly schooling to predict the effect of a large expansion of rural secondary schooling on a household’s choice of s∗. \n&emsp;&emsp;b. Now embed that household in a Harris–Todaro economy. As successive cohorts graduate, what happens to the expected urban wage, urban unemployment, and the migration decision facing the next rural cohort? \n&emsp;&emsp;c. In what sense does a successful rural schooling policy generate its own backlash against rural human-capital retention? What complementary policies does the joint model suggest a government should consider?",
     minutes: 10.5
   },
-  {
+    {
     id: "lc19-or-06",
     topic: "Lecture 19 - Adolescence",
     type: "open_response",
-    prompt: "Sierra Leone entered this reform with some of the lowest education outcomes in the world, ranked 151st of 157 countries on the Human Capital Index. In 2018, the government began reducing barriers to access to education through government payment for school, admission, and public examination fees, a fall in p, the direct cost of schooling, with the wage a child could earn outside school left unchanged. \n&emsp;&emsp;1. Use the costly schooling model to predict the effect of this fall of schooling costs a child’s time in school and time in work. \n&emsp;&emsp;2. Which households respond most? \n&emsp;&emsp;3. Now suppose a household has two children with different values of b, the return to schooling. The fee elimination lowers p by the same amount for both children. Does the model predict this closes, widens, or leaves untouched the gap in schooling between the two siblings?",
+    prompt: "Brazil’s 1988 constitution and the 1990 Statute of the Child and Adolescent prohibit employment below age 14 (raised to 16 in 1998, with apprenticeships permitted from 14) and hazardous work below 18. Enforcement falls to the federal labor inspectorate in the Ministry of Labor, whose inspectors can fine employers per child found working and have run targeted operations in charcoal production, sisal, sugar cane, and urban informal commerce since the mid-1990s.\n&emsp;&emsp;In 1996 the federal government also launched the Programa de Erradicação do Trabalho Infantil (PETI), which paid households in targeted municipalities a monthly stipend per child conditional on school attendance and on the child’s participation in an after-school program, with the stated aim of removing children from hazardous work.\n&emsp;&emsp;Suppose the federal government has a fixed budget to promote schooling and must allocate it between hiring more labor inspectors and expanding PETI. Model the inspectorate expansion as an increase in the expected fine per child hired, which shifts the demand for child labor down and lowers the child wage. Model PETI as a transfer paid only if the child attends school, which lowers the net price of schooling.\n&emsp;&emsp;(a) Consider a household that allocates each child’s time between work and school, where schooling has a monetary cost and the household receives the child’s wage income. Show the effect of a fall in the child wage on school attendance. Separate the substitution effect from the income effect and state the condition on preferences or credit access under which attendance falls.\n&emsp;&emsp;(b) Show the effect of the PETI stipend on school attendance in the same model. Compare the sign of the income effect with that in part (a).\n&emsp;&emsp;(c) Suppose the two policies cost the government the same amount. Under what conditions would PETI raise attendance by more than the inspectorate expansion? Is there a case in which the inspectorate expansion raises attendance by more?\n&emsp;&emsp;(d) Inspectors can fine only employers they can identify. Most working children in Brazil are on family farms or in informal activities with no registered employer, while inspections can only fine child employment in formal activities. How does this change the comparison in part (c)?",
     minutes: 10.5
-},
-{
-    id: "lc19-or-07",
-    topic: "Lecture 19 - Adolescence",
-    type: "open_response",
-    prompt: "Since 2020, nearshoring-exposed manufacturing industries in Mexico have seen up to 6.2% higher employment growth. In early 2024, labor shortages forced Toyota to halt production at its Tijuana plant for 19 days, and Mexico's minimum wage in the Northern Border Free Zone rose 20% in 2024 and another 12% in 2025, a rise in w, the wage, with the direct cost of schooling unchanged. \n&emsp;&emsp;1. Use the costly schooling model to predict the effect of this rise in wages on a child’s time in school and time in work. \n&emsp;&emsp;2. Suppose the substitution effect wins for enough households that a large number of teenagers leave school for factory work. What should happen, in equilibrium, to the local supply of young workers competing for these jobs, and could this eventually undercut the very wage growth that pulled them out of school in the first place? What does this imply about treating w as fixed when predicting the effect of one household's decision versus predicting the effect on the whole town?",
-    minutes: 10.5
-},
+  },
 
     // ============================================
   // LECTURE 20 — Fertility
