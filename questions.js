@@ -2297,7 +2297,7 @@ const questions = [
     id: "lc18-tf-07",
     topic: "Lecture 18 - Poverty and gender gaps",
     type: "true_false",
-    prompt: "The economic implication of dynamic complementarity is that early deficits in a child’s health and cognition should only be addressed through remediation, instead of prevention. ",
+    prompt: "The fact that early life investments have a longer horizon to earn returns is not an important component to the argument for why policy should prioritize early life investments in human capital.",
     minutes: 1.5
   },
     {
@@ -2311,49 +2311,70 @@ const questions = [
     id: "lc18-tf-09",
     topic: "Lecture 18 - Poverty and gender gaps",
     type: "true_false",
-    prompt: "The Jamaica result, where stunted toddlers who received home stimulation visits caught up in adult earnings to never-stunted children, is evidence that dynamic complementarity does not apply to children with early deficits.",
+    prompt: "The same in-utero shock is expected to have the same adult consequences whether it occurs in early pregnancy, mid to late pregnancy, or the first year after birth.",
     minutes: 1.5
   },
   {
     id: "lc18-tf-10",
     topic: "Lecture 18 - Poverty and gender gaps",
     type: "true_false",
-    prompt: "Early investments in human capital raise the return to all later investments.",
+    prompt: "If a researcher observes that daughters get less schooling than sons in a household, this by itself proves that parents care less about daughters.",
     minutes: 1.5
   },
   {
     id: "lc18-tf-11",
     topic: "Lecture 18 - Poverty and gender gaps",
     type: "true_false",
-    prompt: "The same in-utero shock is expected to have the same adult consequences whether it occurs in early pregnancy, mid to late pregnancy, or the first year after birth.",
-    minutes: 1.5
-  },
-  {
-    id: "lc18-tf-12",
-    topic: "Lecture 18 - Poverty and gender gaps",
-    type: "true_false",
-    prompt: "If a researcher observes that daughters get less schooling than sons in a household, this by itself proves that parents care less about daughters.",
-    minutes: 1.5
-  },
-  {
-    id: "lc18-tf-13",
-    topic: "Lecture 18 - Poverty and gender gaps",
-    type: "true_false",
-    prompt: "A researcher finds that a pension paid to a grandmother raises granddaughters’ height-for-age more than an equal pension paid to a grandfather. She can reject the unitary model on this evidence alone, without knowing why the two grandparents’ preferences differ.",
-    minutes: 1.5
-  },
-  {
-    id: "lc18-tf-14",
-    topic: "Lecture 18 - Poverty and gender gaps",
-    type: "true_false",
     prompt: "Suppose a country experiences a famine, and the share of daughters among children born during it rises compared with the years just before. Under Trivers-Willard, this shift reflects stressed parents choosing to have more girls.",
     minutes: 1.5
   },
     {
+    id: "lc18-tf-12",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "If parents love all their children equally (in the sense that they want them to have equal quality lives), they should invest the same amount in all of their children’s human capital.",
+    minutes: 1.5
+  },
+   {
+    id: "lc18-tf-13",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Girls tend to live in larger families than boys.",
+    minutes: 1.5
+  },
+   {
+    id: "lc18-tf-14",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Liquidity constraints create both sibling rivalry and resource dilution.",
+    minutes: 1.5
+  },
+   {
     id: "lc18-tf-15",
     topic: "Lecture 18 - Poverty and gender gaps",
     type: "true_false",
-    prompt: "Suppose a country’s share of boys among newborns stays well above the biological norm for decades after a famine ends. Trivers-Willard is enough to explain this pattern.",
+    prompt: "Resource dilution effects lead to less investment in girls in part because of preference for sons.",
+    minutes: 1.5
+  },
+   {
+    id: "lc18-tf-16",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Holding family size fixed, a boy with more sisters and fewer brothers is predicted to receive more investment than a boy with more brothers and fewer sisters.",
+    minutes: 1.5
+  },
+   {
+    id: "lc18-tf-17",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "Adding a brother to a family lowers investment in his sister but leaves investment in his other brothers unchanged.",
+    minutes: 1.5
+  },
+   {
+    id: "lc18-tf-18",
+    topic: "Lecture 18 - Poverty and gender gaps",
+    type: "true_false",
+    prompt: "If we consider the thought experiment of changing a sibling from a brother to a sister, a girl might expect more human capital investment if the sibling is a sister.",
     minutes: 1.5
   },
   {
