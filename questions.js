@@ -2618,6 +2618,41 @@ const questions = [
     prompt: "Increasing earnings power for women can explain why total fertility rates fall with development.",
     minutes: 1.5
   },
+    {
+    id: "lc20-tf-04",
+    topic: "Lecture 20 - Fertility",
+    type: "true_false",
+    prompt: "While fertility has declined everywhere, developing countries have seen the fastest and largest declines in recent decades.",
+    minutes: 1.5
+  },
+    {
+    id: "lc20-tf-05",
+    topic: "Lecture 20 - Fertility",
+    type: "true_false",
+    prompt: "If a family planning program lowers fertility, we can conclude that parents are now investing more in each child.",
+    minutes: 1.5
+  },
+    {
+    id: "lc20-tf-06",
+    topic: "Lecture 20 - Fertility",
+    type: "true_false",
+    prompt: "A rise in nonlabor asset income and an equivalent rise in income from higher female wages should have the same impact on fertility.",
+    minutes: 1.5
+  },
+    {
+    id: "lc20-tf-07",
+    topic: "Lecture 20 - Fertility",
+    type: "true_false",
+    prompt: "The total fertility rate is a forecast of  how many births a woman will have over her lifetime. ",
+    minutes: 1.5
+  },
+    {
+    id: "lc20-tf-08",
+    topic: "Lecture 20 - Fertility",
+    type: "true_false",
+    prompt: "Holding women’s relative wage fixed, a rise in men’s wages acts mainly as an income increase and can raise fertility.",
+    minutes: 1.5
+  },
 
   {
     id: "lc20-or-01",
@@ -2678,6 +2713,13 @@ const questions = [
     topic: "Lecture 20 - Fertility",
     type: "open_response",
      prompt: "In 2010, Zambia began evaluating the Child Grant Programme, which gave a flat unconditional monthly cash transfer of about $12 to ultra poor rural households with a child under five in three districts. The amount did not depend on the number of children or on school attendance. Suppose the government expands the program so that eligible households’ income rises, with no change in the prices of child quality or of the family’s standard of living. \n&emsp;&emsp;(a) A district official says, “Richer families can afford more of everything, including more children, so this expansion will raise fertility.” Use the Becker quantity quality model to evaluate this claim. Draw the budget curve and indifference curves before and after, and describe what happens to quality per child and to the number of children. Under what condition on preferences would the family choose fewer children even though it is richer and values children? \n&emsp;&emsp;(b) The government wants to raise quality per child without raising fertility. It can either (i) raise the unconditional transfer, or (ii) pay the same total amount but only if children attend school regularly. Which option is more likely to achieve the goal? Draw both and explain what each does to the budget curve and to the relative cost of quality.\n&emsp;&emsp;(c) Suppose the government instead pays an additional amount for each child under five in the household. Redraw the budget curve and explain how this differs from a pure income increase. What does this change do to the incentive to have another child? The actual program found no overall effect on fertility. Does that finding tell us the model was wrong? Explain.",
+    minutes: 10.5
+  },
+   {
+    id: "lc20-or-08",
+    topic: "Lecture 20 - Fertility",
+    type: "open_response",
+     prompt: "Bangladesh’s garment export sector expanded rapidly from the 1990s and hired mostly young women. Suppose a new factory opens near a rural village and hires local women, with no changes in school fees. Some households will change their fertility decisions a lot, others less so. a) Using the Becker quantity quality model, discuss how the factory might affect a household’s fertility and investment per child, and which households you would expect to respond most. b) Suppose that instead of a garment factory, a new employer opens that hires mostly men and raises men’s wages by the same amount. How does the effect on fertility differ, and why?",
     minutes: 10.5
   },
 
