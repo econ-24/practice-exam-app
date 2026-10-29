@@ -2796,7 +2796,13 @@ const questions = [
     prompt: "The Iran war has disrupted Iranian urea and ammonia exports, pushing global fertilizer prices sharply higher. Smallholder farmers in Tanzania, Malawi, and Ethiopia — already running thin margins — face substantially higher input costs for the 2026 planting season. \n&emsp;&emsp;a. Use the nonseparable farm household model to predict how the input-price shock affects a family’s choice over child time on the farm versus child time at school. What changes (shadow wage, full income, output, or some combination)? Why does the labor supply model with costly schooling give a less complete answer? \n&emsp;&emsp;b. If the shock pushes the village-level adult wage below subsistence, what does Basu–Van predict? Does temporary humanitarian assistance suffice to prevent a slip to the low-wage equilibrium, or are persistent transfers required? \n&emsp;&emsp;c. If fertilizer prices remain elevated for several years, use the Becker quality–quantity model to predict how households revise fertility, and what this implies for per-child schooling a generation later. In what sense does a transient shock leave a permanent imprint?",
     minutes: 10.5
   },
-
+  {
+    id: "lc21-or-10",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "open_response",
+    prompt: "Cocoa farmers in Côte d'Ivoire and Ghana work primarily on family farms, not in formal wage employment. Between December 2024 and early 2026, the world cocoa price fell from an all-time high of about $12,900/tonne to around $2,850/tonne, a decline of roughly three-quarters. In response, both governments raised the guaranteed price paid to farmers at the farm gate.\n&emsp;&emsp;a. Use the nonseparable farm household model to predict the effect of the price collapse on a child's time allocation between farm work and school. Is the mechanism the shadow wage, full income, or both? \n&emsp;&emsp;b. Now aggregate across households and use the Basu-Van coordination model instead. If the price collapse pushes the village-level adult wage below subsistence, what does the model predict? Is this a coordination problem or a poverty problem? \n&emsp;&emsp;c. A guaranteed farmgate price is a floor on what farmers receive per kilogram. Compare what this policy does in each of the two models above. Does it work through the same channel in both, or a different one? \n&emsp;&emsp;d. Which model is the more appropriate tool for this setting, the nonseparable farm household model or the Basu-Van coordination model? What would you need to know about the local cocoa labor market, for instance whether cocoa labor is ever hired off the family farm at a market wage, to decide?",
+    minutes: 10.5
+  },
     // ============================================
   // LECTURE 22 — Policy brief 5: Foreign aid
   // ============================================
