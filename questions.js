@@ -2766,6 +2766,118 @@ const questions = [
     prompt: "The principal advantage of a CCT over a UCT of equal value is that the CCT lowers the marginal price of schooling.",
     minutes: 1.5
   },
+  {
+    id: "lc21-tf-06",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Top down supply education policy works only when demand is plausibly present and high-quality complementary inputs exist.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-07",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "In the wage (y)-labor (x) space, inelastic adult labor supply is best represented by a horizontal line.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-08",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Because primary schooling has nearly universalized, the learning crisis is now concentrated in the minority of children who remain out of school.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-09",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Creamskimming means a private school’s higher test scores cannot, by themselves, show that the school teaches better, and it can also leave the remaining public schools with lower quality students.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-10",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Multiple equilibria mean that more than one possible combination of coordinates (in say a two dimensional space)  is possible with the same set of economic fundamentals.  For example, for a given set of labor supply and demand curves, there are multiple combinations of employment and wages where markets clear.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-11",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Multiple equilibria are consistent with linear fundamentals (e.g. linear labor supply and linear labor demand).",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-12",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Bottom-up institutions solve the free-rider problem best when the group is large and anonymous, since social sanctions are then easiest to apply to the most people.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-13",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Families that invest in the child with the higher return are acting inefficiently, so this behavior is itself a market failure that justifies state intervention.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-14",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A private school that admits every applicant by lottery can still enroll students with higher expected returns than the public school does, because families choose which of their children to send.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-15",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "In low-income countries, the gap in cognitive skills relative to OECD children is already visible before children enter school.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-16",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "The learning crisis mainly reflects low primary school enrollment in poor countries.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-17",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "The evidence on large-scale school construction programs implies that adding school supply raises schooling and later wages regardless of whether household demand and complementary inputs are present.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-18",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "In the Basu and Van model, the household’s labor supply curve has a discontinuous jump at the subsistence wage because children enter the labor market when adult earnings alone fall below subsistence.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-19",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "In the Basu and Van model, a ban on child labor improves outcomes for poor households wherever labor demand crosses labor supply.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-20",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "In a system with multiple equilibria, a small intervention can have a large effect or no effect, depending on which equilibrium it pushes households toward.",
+    minutes: 1.5
+  },
+  {
+    id: "lc21-tf-21",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Social norms can persist because individuals misperceive what others believe, so correcting those second-order beliefs can move the equilibrium.",
+    minutes: 1.5
+  },
 
   {
     id: "lc21-or-01",
