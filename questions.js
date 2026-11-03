@@ -3089,7 +3089,7 @@ const questions = [
     id: "lc23-tf-01",
     topic: "Lecture 23 - Taxation",
     type: "true_false",
-    prompt: "A Pigovian tax set at the marginal external cost evaluated at the socially efficient quantity restores efficiency.",
+    prompt: "A sharp drop in the number of firms just above a tax threshold is, on its own, proof that firms are producing less to stay small.",
     minutes: 1.5
   },
 
@@ -3164,12 +3164,82 @@ const questions = [
     prompt: "Visible improvements in public services can raise tax compliance enough that the revenue gains exceed the cost of providing the public good.",
     minutes: 1.5
   },
+    {
+    id: "lc23-tf-11",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "Raising the personal income tax rate would be an effective way to make the tax system of a country with mostly informal workers more progressive.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-12",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "Poor countries are under-taxed mainly because their governments choose low rates, so the fix is to raise statutory rates.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-13",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "A finance ministry plans to build up its tax collection capacity first, including better property records and more collectors, and to delay improving municipal services until revenue has grown. Because tax collection capacity and service delivery capacity are complements, this sequencing could weaken the collection effort itself.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-14",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "A tax authority introduces electronic invoicing for the VAT, so that every sale leaves a digital record. This guarantees that VAT revenue will rise to the full level the technology makes possible.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-15",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "Two countries have the same statutory property tax rate and equally immobile property, yet one collects far more revenue than the other. The difference could come entirely from administration and politics, with no difference in the underlying tax base.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-16",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "Foreign aid cannot be expected to substitute for a country’s own tax collection, because even a modest improvement in domestic tax revenue is typically larger than the aid a low-income country receives.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-17",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "In a labor market where small firms can easily find workers and workers have few formal job options, a payroll tax on small firms is likely to be borne mostly by workers.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-18",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "A tax on a good with many close substitutes falls mainly on consumers, because consumers are the ones who pay the final price.",
+    minutes: 1.5
+  },
+    {
+    id: "lc23-tf-19",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "A country with weak capacity to tax domestic activity that cuts tariffs as part of trade liberalization may lose revenue overall, even if liberalization improves efficiency.",
+    minutes: 1.5
+  },
+      {
+    id: "lc23-tf-20",
+    topic: "Lecture 23 - Taxation",
+    type: "true_false",
+    prompt: "When citizens see nothing in return for their taxes, tightening enforcement can lower compliance rather than raise it.",
+    minutes: 1.5
+  },
 
   {
     id: "lc23-or-01",
     topic: "Lecture 23 - Taxation",
     type: "open_response",
-    prompt: "In 2014 Mexico introduced a peso-per-liter tax on sugar-sweetened beverages. Several other middle-income countries (South Africa, Colombia, the Philippines, Saudi Arabia) have adopted similar taxes since, and the rate is currently under debate in Mexico. \n&emsp;&emsp;a. Pigovian framing: What is the relevant externality? Under what assumptions does a flat per-liter tax approximate the Pigovian benchmark, and what does that imply for the optimal rate? \n&emsp;&emsp;b. Incidence: Under what conditions does the burden fall mostly on consumers, and under what conditions mostly on bottlers and retailers? Use elasticity reasoning. \n&emsp;&emsp;c. Dead-weight loss: Calculate the dead-weight-loss triangle conceptually, then explain why the existence of a corrective externality changes the sign of the welfare effect. Could a sufficiently large tax actually be welfare-reducing even with the externality? At what point? \n&emsp;&emsp;d. Equity: Headline analyses call SSB taxes regressive on the standard ground that the poor spend a larger share of their income on consumption goods. Explain why that conclusion can be wrong once you account for where the poor actually transact, and what data you would want to verify it for a particular country.",
+    prompt: "In 2025 the United States raised tariffs sharply on imports from many developing countries. Brazilian coffee faced a tariff of up to 50 percent for part of the year before coffee was later exempted. Garments from Lesotho faced a 15 percent tariff. Brazil supplies roughly 30 percent of US coffee imports and can redirect beans to Europe and Asia, and coffee is only about 4 percent of Brazil’s exports. Lesotho sells its garments almost entirely to the United States, supplies a tiny share of US garment imports, and the garment sector is roughly 10 percent of its GDP. In both cases the legal payer is the US importer.\n&emsp;&emsp;a. Incidence. Explain the difference between statutory and economic incidence. Then state the elasticity conditions under which the burden of a US tariff falls mainly on US buyers and when it falls mainly on the foreign exporter. Apply these conditions to explain why the burden might land differently for Brazilian coffee and for Lesotho garments. \n&emsp;&emsp;b. Child labor. For this part only, suppose the tariff lowers the income of garment workers’ households, through lost jobs or lost hours. Using the child labor model from the course, explain how a fall in adult earnings can push a household from sending its children to school to sending them to work. Why can this response be hard to reverse even after the earnings recover? \n&emsp;&emsp;c. Poverty trap. For this part only, suppose the same households respond to the lost income by selling productive assets, such as livestock or a plot, or by drawing down savings. Using the poverty trap model from the course, explain why a temporary tariff can have a permanent effect on a household’s income. What does the threshold in the model imply about which households are most at risk, and why is the timing of any cash support important? \n&emsp;&emsp;d.Tax base. For this part only, suppose the tariff causes garment employment in Lesotho to fall. Garment payrolls are among the few incomes in Lesotho that employers report to the state. Explain how this shrinks the domestic tax base, not just private incomes, and why the government would find the loss hard to replace. Why would a country with a broad VAT base, such as Brazil, be less exposed to the same shock?",
     minutes: 10.5
   },
 
