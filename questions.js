@@ -3341,7 +3341,48 @@ const questions = [
     prompt: "A national biometric ID system reduces corruption uniformly across all stages of a public-service program, from upstream procurement of inputs to downstream disbursement of benefits.",
     minutes: 1.5
   },
-
+    {
+    id: "lc24-tf-11",
+    topic: "Lecture 24 - Corruption",
+    type: "true_false",
+    prompt: "Corruption is the misuse of public office for private gain.",
+    minutes: 1.5
+  },
+    {
+    id: "lc24-tf-12",
+    topic: "Lecture 24 - Corruption",
+    type: "true_false",
+    prompt: "Corruption is more likely to be welfare improving when it involves theft.",
+    minutes: 1.5
+  },
+    {
+    id: "lc24-tf-13",
+    topic: "Lecture 24 - Corruption",
+    type: "true_false",
+    prompt: "State capture occurs when governments take control of private businesses.",
+    minutes: 1.5
+  },
+    {
+    id: "lc24-tf-14",
+    topic: "Lecture 24 - Corruption",
+    type: "true_false",
+    prompt: "Clientelism refers to trading public resources for votes.",
+    minutes: 1.5
+  },
+    {
+    id: "lc24-tf-15",
+    topic: "Lecture 24 - Corruption",
+    type: "true_false",
+    prompt: "Most of the economic costs of corruption come through misallocation rather than theft.",
+    minutes: 1.5
+  },
+   {
+    id: "lc24-tf-16",
+    topic: "Lecture 24 - Corruption",
+    type: "true_false",
+    prompt: "Rent seeking occurs when public office holders take steps to help private individuals find housing.",
+    minutes: 1.5
+  },
   {
     id: "lc24-or-01",
     topic: "Lecture 24 - Corruption",
