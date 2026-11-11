@@ -82,6 +82,83 @@ const questions = [
   "prompt": "An NGO (non-governmental organization) is a private, non-profit organization that operates independently of government and is typically involved in development, humanitarian, or advocacy work.",
   "minutes": 1.5
 },
+{
+  "id": "lc1-tf-11",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "Bilateral aid is larger than multilateral aid mainly because bilateral aid is more effective at reducing poverty than multilateral aid.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-12",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "When a donor gives through a multilateral agency, voters in the donor country find it easier to see and credit their own government for the aid than when the donor gives bilaterally.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-13",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "Contributing to a multilateral fund lets a donor share costs and risks with other donors, but it also means the donor gives up some control over how its money is used.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-14",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "If donors expected other donors to cover the needs of poor countries, a donor weighing a multilateral contribution would have a reduced incentive to give through a pooled channel where its own contribution is hard to distinguish.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-15",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "A donor that wants to reward a recipient for reform can do this more credibly through a pooled multilateral fund than through bilateral aid, because the donor controls the pooled fund’s conditions.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-16",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "The coexistence of modern and traditional production technologies within developing countries means that productivity gaps between low and high-income countries are not explained only by a lack of access to technology.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-17",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "Poor countries remain so because they lack access to the technologies used in wealthier countries.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-18",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "If a modern technology is available in a developing country, and some firms use it while others in the same industry do not, the nonadopting firms must be making a mistake.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-19",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "If modern and traditional firms coexist in the same industry in a poor country, the economy would produce more if all firms switched to the modern technology.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-20",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "Because modern technology produces more output per worker than traditional technology, a firm that stays with the traditional technology must be earning lower profits than it would with the modern one.",
+  "minutes": 1.5
+},
+{
+  "id": "lc1-tf-21",
+  "topic": "Lecture 1 - Why poverty persists",
+  "type": "true_false",
+  "prompt": "If a poor country removes every barrier to importing frontier technology, the productivity gap with rich countries will close.",
+  "minutes": 1.5
+},
 
 {
   "id": "lc1-or-01",
@@ -1408,6 +1485,83 @@ const questions = [
     minutes: 1.5
   },
 
+    {
+    id: "lc12-tf-06",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "Lending to a profitable but liquidity constrained farmer raises the farmer’s output only if the farmer would otherwise have chosen not to invest.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-07",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "If a household finds an investment worth its cost only after several periods of returns, the household faces a profitability problem and not a liquidity problem.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-08",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "A very high return on a fertilizer purchase is evidence that farmers are not liquidity constrained, since a high return makes saving or borrowing for it easy.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-09",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "Raising the profitability of an investment through better technology resolves a liquidity constraint, because the higher returns relax the constraint on up front funds.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-10",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "Offering a loan to a household whose investment is unprofitable at market prices will raise the household’s income as long as the household uses the loan to invest.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-11",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "When we observe that poor households do not make profitable investments, it is sufficient for policy to improve profitability, because liquidity matters only for households that are already investing.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-12",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "If a profitable investment is risky and a household does not undertake it, this shows that the household faces a liquidity constraint.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-13",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "If the return to an investment is the same for all households, then differences in who undertakes it across wealth levels point to differences in liquidity and not profitability.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-14",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "A subsidy paid only to households that undertake the investment changes profitability, while a cash grant paid regardless of what the household does changes liquidity but not profitability.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-15",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "A household facing a liquidity constraint can invest more over time as it accumulates assets even if the investment’s profitability is unchanged, while a household facing an unprofitable investment cannot.",
+    minutes: 1.5
+  },
+    {
+    id: "lc12-tf-16",
+    topic: "Lecture 12 - Policy brief 3 - Climate change",
+    type: "true_false",
+    prompt: "A subsidy that lowers the price of an investment can raise investment both among households for whom the investment was unprofitable at the old price and among households for whom it was profitable but unaffordable up front.",
+    minutes: 1.5
+  },
   {
     id: "lc12-or-01",
     topic: "Lecture 12 - Policy brief 3 - Climate change",
@@ -2876,6 +3030,41 @@ const questions = [
     topic: "Lecture 21 - Public Policy and Human Development",
     type: "true_false",
     prompt: "Social norms can persist because individuals misperceive what others believe, so correcting those second-order beliefs can move the equilibrium.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-22",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A project can be beneficial to the households that receive it and still be a poor use of public resources compared with an alternative.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-23",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A gap between social and private benefits can justify intervention, but only if the intervention is still used, and only if the gap is large enough to matter after accounting for delivery costs.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-24",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "If an investment has a high private rate of return, this is evidence that the government should subsidize it.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-25",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "The fact that a service benefits poor households is a sufficient reason for government to provide it directly rather than finance it or regulate it.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-26",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "Evidence that households underuse a beneficial technology shows that a free distribution program is justified.",
     minutes: 1.5
   },
 
