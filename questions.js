@@ -1548,13 +1548,7 @@ const questions = [
     prompt: "A subsidy paid only to households that undertake the investment changes profitability, while a cash grant paid regardless of what the household does changes liquidity but not profitability.",
     minutes: 1.5
   },
-    {
-    id: "lc12-tf-15",
-    topic: "Lecture 12 - Policy brief 3 - Climate change",
-    type: "true_false",
-    prompt: "A household facing a liquidity constraint can invest more over time as it accumulates assets even if the investment’s profitability is unchanged, while a household facing an unprofitable investment cannot.",
-    minutes: 1.5
-  },
+  
     {
     id: "lc12-tf-16",
     topic: "Lecture 12 - Policy brief 3 - Climate change",
@@ -3058,13 +3052,6 @@ const questions = [
     topic: "Lecture 21 - Public Policy and Human Development",
     type: "true_false",
     prompt: "The fact that a service benefits poor households is a sufficient reason for government to provide it directly rather than finance it or regulate it.",
-    minutes: 1.5
-  },
-    {
-    id: "lc21-tf-26",
-    topic: "Lecture 21 - Public Policy and Human Development",
-    type: "true_false",
-    prompt: "Evidence that households underuse a beneficial technology shows that a free distribution program is justified.",
     minutes: 1.5
   },
 
