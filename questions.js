@@ -3103,13 +3103,7 @@ const questions = [
     prompt: "A household sends a child to work because the child’s earnings exceed the household’s valuation of the return to schooling. Because the decision is privately optimal for the household, no policy can raise welfare.",
     minutes: 1.5
   },
-      {
-    id: "lc21-tf-33",
-    topic: "Lecture 21 - Public Policy and Human Development",
-    type: "true_false",
-    prompt: "A firm pays a bribe to bypass a slow licensing process. Both the firm and the official gain, so the bribe raises efficiency.",
-    minutes: 1.5
-  },
+   
 
   {
     id: "lc21-or-01",
@@ -3613,6 +3607,13 @@ const questions = [
     topic: "Lecture 24 - Corruption",
     type: "true_false",
     prompt: "Rent seeking occurs when public office holders take steps to help private individuals find housing.",
+    minutes: 1.5
+  },
+     {
+    id: "lc24-tf-17",
+    topic: "Lecture 24 - Corruption",
+    type: "true_false",
+    prompt: "A firm pays a bribe to bypass a slow licensing process. Both the firm and the official gain, so the bribe raises efficiency.",
     minutes: 1.5
   },
   {
