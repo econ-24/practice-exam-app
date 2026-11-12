@@ -3054,6 +3054,62 @@ const questions = [
     prompt: "The fact that a service benefits poor households is a sufficient reason for government to provide it directly rather than finance it or regulate it.",
     minutes: 1.5
   },
+    {
+    id: "lc21-tf-26",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "The private return to a year of secondary schooling is 10 percent, which exceeds the return on other assets available to the household. This is sufficient to justify a public subsidy for secondary schooling.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-27",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "If households do not make an investment with a high average private return, there must be a market failure.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-28",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A deworming pill has a small private health benefit for the treated child relative to its cost. Therefore there is no case for subsidizing deworming.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-29",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "If a household’s use of a bednet reduces malaria transmission to neighbors, the household’s willingness to pay for the net understates the social value of the net.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-30",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A lender refuses to lend to a poor household because the household is likely to default. This refusal is a market failure.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-31",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A fully informed adult with time-consistent preferences chooses to smoke. The harm to the smoker’s own future health justifies a tobacco tax.",
+    minutes: 1.5
+  },
+    {
+    id: "lc21-tf-32",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A household sends a child to work because the child’s earnings exceed the household’s valuation of the return to schooling. Because the decision is privately optimal for the household, no policy can raise welfare.",
+    minutes: 1.5
+  },
+      {
+    id: "lc21-tf-33",
+    topic: "Lecture 21 - Public Policy and Human Development",
+    type: "true_false",
+    prompt: "A firm pays a bribe to bypass a slow licensing process. Both the firm and the official gain, so the bribe raises efficiency.",
+    minutes: 1.5
+  },
 
   {
     id: "lc21-or-01",
